@@ -1,0 +1,96 @@
+1. function
+2. button click event
+3. We called a function on click of a button
+4. Change the content of page
+
+Data types in Javascript
+
+1. string: collection of letters example: 'a', 'az', 'Alex', 'Toronto'
+2. number: example: 12, 5, 5.50, 2.2345
+3. Date: example: Feb 05 2020, 05/02/2020, 02/05/2020 06:18:20 PM
+4. Boolean: Yes or No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Client side technologies :
+
+Javascript
+1. To change content - hello Alex! 
+2. validations - 90% - 
+3. features: Hover - css + event hover fired
+4. submit button 
+5. perform calculations - validating an email address 
+6. alert - javascript function 
+7. animations 
+
+
+
+Javascript Events:
+1. onclick 
+2. onsubmit
+3. onselect
+4. onchange 
+
+
+Function: 
+1. reusable code
+2. 
+
+
+
+
+
+Javascript scope
+
+1. variables
+2. arrays
+3. arrays options
+4. functions
+5. calculations
+6. button click events
+7. form 
+
+
+1. did you put script tag correctly
+2. did you create an empty button and does it render
+3. create an function and write alert in it.
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+JQuery
+Angular
+React
+Vue
+
+Server side technologies:
+Object Oriented Programming languages
+1. Java 
+2. C#
+3. Python
+4. Node.js
