@@ -1,0 +1,31 @@
+<head>
+
+</head>
+<body>
+<script>
+    function test(){
+
+        var myName = "Alex Vargos, Toronto";
+                
+        var myLuckyNumber = 10;
+        var myLuckyNumber2 = 10;
+      
+        var todayDate = new Date();
+
+        document.getElementById("myTag").innerHTML = 
+        document.getElementById("myTextBox").value;
+        //document.getElementById("myTag").innerHTML =  myName + myLuckyNumber + myLuckyNumber2 + todayDate;
+        //document.getElementById("myTag").innerHTML = myName + todayDate + myLuckyNumber;
+    }
+
+
+</script>    
+<p>Hey! What's up? </p>
+
+<p id="myTag"></p>
+
+<input id="myTextBox" type="text"/>
+
+<button onclick="test()">test button</button>
+
+</body>
