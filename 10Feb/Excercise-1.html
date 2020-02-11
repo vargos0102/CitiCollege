@@ -1,0 +1,30 @@
+<head>
+
+</head>
+<body>
+    <script>
+        function myFunc(){
+           if(document.getElementById('myText').value == "")
+           {            
+            alert('Value is Empty');
+           }
+           else if(document.getElementById('myText').value.length > 10)
+           {
+            alert('User Name can not be greater than 10 characters')
+           } 
+           else if(document.getElementById('myText').value.length < 5)
+           {
+               alert('User Name can not be less than 5 characters')
+           }
+           else if(document.getElementById('myText').value.length > 6 || 
+                   document.getElementById('myText').value.length < 8 )
+           {
+               alert('Sorry the username is already taken! Try different..')
+           }
+          
+          
+        }
+    </script>
+    <input id="myText" type="text"/>
+    <button onclick="myFunc()" id="myButton">Check UserName</button>
+</body>

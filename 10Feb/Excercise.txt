@@ -1,0 +1,7 @@
+Validate the user name, it should not be greater than 10 or less than 5 based on user input.
+
+Steps:
+1. get the user input value..
+2. count the user input value..
+3. write an if statement to compare it with 5
+4. finally compate it with 10
