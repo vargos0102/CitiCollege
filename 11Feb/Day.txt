@@ -1,0 +1,20 @@
+Conditional Statements & Operators
+
+These are common across all programming languages.. 
+
+1. Conditional Statements: 
+Ex: a. If Else b. Switch statement
+
+2. Operators
+Ex: <, >, ==, =, &&, ||, =!
+
+3. Excercises for Conditional Statements and Operators
+ 
+a. Completed excercises for Conditional Statements, Operators and Variables
+
+Excercise: Start implementing validation on input box with red color.
+The color should go away after user input the value.
+Deadline: 18 Feb 2020
+
+Remaining: 
+1.  Arrays and loops 

@@ -1,0 +1,28 @@
+<head>
+
+</head>
+<body>
+    <script>
+        function myFunc(){
+
+            var firstName = "John";
+            var lastName = "Smith";
+
+            var number1 = parseInt( document.getElementById('num1').value );
+            var number2 = parseInt(  document.getElementById('num2').value );
+
+            var result = number1 + number2;
+
+            alert(result);
+
+            result *=  100;
+            
+          
+
+        }
+    </script>
+    <p>Number 1: <input id="num1" type="text"/></p>
+    <p>Number 2: <input id="num2" type="text"/></p>
+    
+    <button onclick="myFunc()">Show Result</button>
+</body>
