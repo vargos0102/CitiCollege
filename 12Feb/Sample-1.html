@@ -1,0 +1,28 @@
+<head>
+
+</head>
+<body>
+    <script>
+    //Global variable
+    var myArray = [];
+    
+    function myPush(){       
+       //local variable
+       var someValue = document.getElementById("myInput").value;
+
+        if(someValue != "")
+        {
+            myArray.push(someValue);
+        }
+        console.log(myArray);       
+    }
+
+    function myPop(){
+        console.log(myArray.pop());
+    }
+
+    </script>
+    <input type="text" id="myInput"/>
+    <button onclick="myPush()">Push</button>
+    <button onclick="myPop()">Pop</button>
+</body>

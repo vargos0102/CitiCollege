@@ -1,0 +1,45 @@
+<head>
+
+</head>
+<body>
+    <script>
+    //Global variable
+    var myArray = [];
+    
+    function myPush(){       
+       //local variable
+       var someValue = document.getElementById("myInput").value;
+
+        if(someValue != "")
+        {
+            myArray.push(someValue);
+        }
+        console.log(myArray);       
+        // var x = x + y;
+        // x+=y;
+        // x++
+    }
+
+    function display(){
+
+        // for(var i = 0; i < myArray.length; i++  )
+        // {
+        //  console.log(myArray[i]);
+        // }
+
+        var ul = "<ul>";
+        for(var i = 0; i < myArray.length; i++  )
+        {
+            ul += "<li>"+ myArray[i] +"</li>";
+        }
+        ul = ul + "</ul>";
+        document.getElementById("myDiv").innerHTML = ul;
+    }
+
+    </script>
+    <input type="text" id="myInput"/>
+    <button onclick="myPush()">Push</button>
+    <button onclick="display()">Display</button>
+    <div id="myDiv"></div>
+
+</body>

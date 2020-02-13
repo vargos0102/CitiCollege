@@ -1,0 +1,18 @@
+Arrays and Loops..
+
+Arrays is basic data structure..
+
+Its nothing but a collection of SIMILAR items.(same data type only)
+
+Ex: It can be a collection of numbers, strings, booleans, dates or objects
+
+Imagine a bucket..
+
+var myarray = [];
+
+All Loops: To iterate over a collection()
+
+For Loops:
+ 
+While Loops: 
+
