@@ -27,4 +27,12 @@ Anchor
 
 <a> </a>
 
+Header
+<h1> </h1>
+.
+.
+<h6> </h6>
+
 Syntax - meaning arrangement of letter, Every programming language is Case sensitive
+
+
