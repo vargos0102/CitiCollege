@@ -12,7 +12,7 @@ var myarray = [];
 
 All Loops: To iterate over a collection()
 
-For Loops:
+For Loops: 
  
 While Loops: 
 
