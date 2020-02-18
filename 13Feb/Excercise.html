@@ -1,0 +1,22 @@
+<head>
+
+</head>
+<body>
+
+    <script>
+        function myFunc()
+        {
+            if(document.getElementById("myText").value=="")
+            {
+
+                document.getElementById("myText").style.borderColor = "red";
+            }
+            else
+            {
+                document.getElementById("myText").style.borderColor = "white";
+            }
+        }
+    </script>
+    <input id="myText" type="text"></input>
+    <button onclick="myFunc()">Click Me</button>
+</body>

@@ -1,0 +1,20 @@
+Add validations on button click
+
+- basic structure 
+funciton myFunc() {
+	
+if(document.getElementById("myText").value == "" )
+{
+	alert('Value is empty');
+}
+else
+{
+	
+}
+
+}
+
+- is there an id to your input?
+
+
+
