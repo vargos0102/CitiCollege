@@ -14,7 +14,7 @@ a. Completed excercises for Conditional Statements, Operators and Variables
 
 Excercise: Start implementing validation on input box with red color.
 The color should go away after user input the value.
-Deadline: 18 Feb 2020
+Deadline: 20 Feb 2020
 
 Remaining: 
 1.  Arrays and loops 

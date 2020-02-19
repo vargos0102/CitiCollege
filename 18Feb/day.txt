@@ -1,0 +1,33 @@
+1. While and do While loops 
+2. Loops excercises W3C
+3. JSON Objects
+
+I need to complete for Javascript..
+
+
+Why do we need loops
+- To iterate over a collection
+
+var fruits = ["Toronto", "Oakville","Mississauga"]
+
+  // for (let i = 0; i < fruits.length; i++) {
+            
+        //     console.log(fruits[i])        
+        // }
+
+for(var count = 0; i < fruits.length ; i++)
+{
+   fruits[i];     
+}
+
+while(condition)
+{
+
+} 
+
+do while loop: It will execute first and then it will check the condition.
+
+do 
+{
+
+} while (condition)
