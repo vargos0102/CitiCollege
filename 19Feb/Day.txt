@@ -1,0 +1,27 @@
+1. Loops excercises W3C
+2. JSON Objects
+3. Custom excercise on Json objects
+
+
+i++ incrementing by one..
+or
+i = i + 1; incrementing by one..
+i = 0;
+
+string anything in double quotes 
+"Peter"
+"Allan"
+"XYZ"
+"2"
+3
+
+Array representation []
+var names = ["Allan","Robert","Peter"]
+names[2]
+
+var names = ["Allan","Robert","Peter"]
+names[2] = "XYZ";
+["Allan", "Robert", "XYZ"]
+
+
+

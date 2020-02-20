@@ -1,0 +1,20 @@
+JSON - Javascript object notation
+
+Data Types in Javascript
+String, Number, Date and Boolean
+"Allan", 0-9999, and (true or false)
+
+var number = 4678;
+var name = "Allan";
+var today = new Date();
+
+Name, Address, Age
+"Allan", "Mississauga", 40
+
+var user = "Allan";
+var address = "Mississage";
+var age = 40;
+
+var user = { name: "Allan", address: "Toronto", age: 40, today: new Date() }
+var location = { City: "Toronto", PostalCode: "L4E 3YT", Coordinate: 45.899 }
+var order = {orderId : 4356, orderStatus: "Delivered", OrderedMonth: "Jan" }

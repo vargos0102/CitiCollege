@@ -1,0 +1,39 @@
+<head>
+</head>
+<body>
+    <script>
+
+    function myFunc(){
+
+        var user = { Name: "",
+         Age: 0,
+         Address:"City Centre Drive, Mississauga"
+        }
+
+        var user1 = { Name: "Peter", 
+        Age: 35, 
+        Address: "Bay Street, Toronto"
+        }
+        
+        var user2 = { Name: "John", 
+        Age: 45, 
+        Address: "Front Street, Toronto",
+        HomeAddress: "Mississauga"
+        }
+
+       
+        var users = [user, user1, user2];
+        var count = 0;
+        while (count < users.length) {
+            console.log(users[count]);
+            count++;
+        }
+       
+         // console.log(user);
+        // console.log(user1);
+        // console.log(user2);
+    }
+    </script>
+
+    <button onclick="myFunc()">Click Me</button>
+</body>
