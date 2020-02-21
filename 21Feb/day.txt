@@ -1,0 +1,3 @@
+1. create a string array of names and print in on html(using any loop)
+2. create an employee json object with attributes and log it in console
+- employeeId , employeeName, managerName, departmentId and departmentName
