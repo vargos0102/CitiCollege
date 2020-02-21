@@ -1,0 +1,7 @@
+Re-cap:
+var user = { name: "Allan", address: "Toronto", age: 40, today: new Date() }
+
+1. Custom excercise on Json objects
+- Capture user information for a sign-up 
+- display all the users
+
