@@ -1,3 +1,16 @@
 1. create a string array of names and print in on html(using any loop)
+
+Steps
+a. Create an array with Names.
+b. Console the entire variable to see if it's correct.
+c. write a basic syntax of loop (while or for)
+d. just console your i or count is incrementing correctly.
+e. Console your array with i
+
+To print on html
+a. put a div in your html with id
+b. in your array append '<div>' + array + '</div>'
+c. get the div with id and add this to it's innerHTML property
+
 2. create an employee json object with attributes and log it in console
 - employeeId , employeeName, managerName, departmentId and departmentName
