@@ -1,0 +1,58 @@
+What is HTML?
+- Hyper text protocol language.
+
+Every browser runs html. Every page(website) you see is rendering in html.
+All Browsers understand only 3 things - html, css and javascript.
+
+- way to render information on your web page.
+Collection of html tags for various purposes..
+
+Example:
+Paragraph Tag 
+<p> Text </p>
+
+Division Tag
+<div>  </div>
+
+Table
+<table> <th> <td> </td> <td> </td> </th> <tr> </tr> </table> 
+
+Button
+<button> </button>
+
+Input
+<input> </input>
+
+Anchor
+
+<a> </a>
+
+Header
+<h1> </h1>
+.
+.
+<h6> </h6>
+
+Syntax - meaning arrangement of letter, Every programming language is Case sensitive
+
+Text Area
+<textarea> </textarea>
+For multiple lines  input
+
+Form
+<form> </form>
+To send the complete form data to server
+
+Label
+<label></label>
+
+Excercise 1:
+Practise tables, make 5 columns and 5 rows
+
+Excercise 2:
+Write any day data on the web page and display it one below the other.
+
+
+
+
+
