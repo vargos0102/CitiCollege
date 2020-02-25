@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <script>
+       
+        function myFunc() {
+
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+            var email = document.getElementById("email").value;
+            var address = document.getElementById("address").value;
+            var date = document.getElementById("dob").value;
+
+           
+            if(fname == "")
+            {
+                document.getElementById("fname").style.borderColor = "red";
+                
+            }
+            else
+            {
+                document.getElementById("fname").style.borderColor = "";
+            }
+
+            if(lname == "")
+            {
+                document.getElementById("lname").style.borderColor = "red";                
+            }
+            else
+            {
+                document.getElementById("lname").style.borderColor = "";
+            }                    
+
+         
+        }
+    </script>
+    <div class="container-fluid">
+        <input type="text" class="form-control my-4" id="fname" 
+        placeholder="First Name" />
+        <input type="text" class="form-control my-4" id="lname" 
+        placeholder="Last Name" />
+        <input type="email" class="form-control my-4" id="email" 
+        placeholder="Email Address" />
+        <textarea type="text" class="form-control my-4" id="address"
+         placeholder="Home Address"></textarea>
+        <input type="date" class="form-control my-4" id="dob" 
+        placeholder="Date of Birth" />
+        <button onclick="myFunc()" class="btn btn-primary">Submit</button>
+    </div>
+</body>
