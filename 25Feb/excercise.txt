@@ -1,0 +1,4 @@
+1. On click of submit button, Add red border to the inputs where the input is empty 
+(by using switch statement only).
+No need to remove border on click of submit if not empty.
+ 
