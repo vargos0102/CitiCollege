@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <script>
+       
+        function myFunc() {
+
+            var name = document.getElementById("name").value;
+            
+
+            switch (name) {
+                case "alex":
+                    console.log("You can't take this name")
+                    break;
+                case "peter":
+                    console.log("You can't take this name")
+                    break;
+                default:
+                    console.log("success")
+                    break;
+            }
+         
+        }
+    </script>
+    <div class="container-fluid">
+        <input type="text" class="form-control my-4" id="name" 
+        placeholder="type any name" />
+      
+        <button onclick="myFunc()" class="btn btn-primary">Submit</button>
+    </div>
+</body>

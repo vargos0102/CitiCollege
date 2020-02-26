@@ -1,0 +1,2 @@
+1. Create an input box, if the number input is less than 0 
+Display 'Negative Number' on html. Similarly for 0 and positive numbers

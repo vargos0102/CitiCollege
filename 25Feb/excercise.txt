@@ -1,4 +1,14 @@
-1. On click of submit button, Add red border to the inputs where the input is empty 
-(by using switch statement only).
-No need to remove border on click of submit if not empty.
+1. Add an input field to take the user name input from the user.
+If the name is either 'alex' or 'peter' thow a message name is taken
+
+Steps:
+1. Inside function call on button click
+2. read the input and assign it to a variable
+3. write a swicth statement syntax
+4. provide the assigned variable to the switch statement
+5. case value if it's alex. display console
+6. case value if it's peter. display console
+7. rest all should console success
+
+2. write 2 inputs box and add two buttons to perform either add or multiply.
  
