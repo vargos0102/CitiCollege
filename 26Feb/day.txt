@@ -1,0 +1,12 @@
+<script>
+
+</script>
+
+Script : Javascript
+Mostly used to write javascript language within the tags.
+
+<style> 
+
+</style>
+Style: Look
+Will always be used to style the html elements 

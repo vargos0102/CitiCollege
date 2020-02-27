@@ -1,2 +1,17 @@
 1. Create an input box, if the number input is less than 0 
-Display 'Negative Number' on html. Similarly for 0 and positive numbers
+Display 'Negative Number' on html. Similarly for 0 and positive numbers.
+
+2. Find the position of a number in an array.
+Example 
+var names = ["Alex", "Peter", 10, "Doe"]
+for (i=0 ; i< names.length ; i++)
+{
+	if( parseInt(names[i]) )
+	{
+	 i
+	}
+}
+
+names[i]
+
+should display 2 in console

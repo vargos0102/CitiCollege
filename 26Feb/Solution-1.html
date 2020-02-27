@@ -1,0 +1,28 @@
+<head>
+
+</head>
+<body>
+    <script>
+        function myFunc() {
+            var number = document.getElementById("num").value;
+            if(number > 0)
+            {
+                document.getElementById('myDiv').innerHTML = 'Positive Number';
+            }
+            else if (number == 0)
+            {
+                document.getElementById('myDiv').innerHTML = 'Number is zero';
+            }
+            else
+            {
+                document.getElementById('myDiv').innerHTML = 'Negative Number';
+            }
+        }
+    </script>
+  
+    <input type="number" id="num">
+    <button onclick="myFunc()">Check Number</button>
+    <div id="myDiv">
+
+    </div>
+</body>
