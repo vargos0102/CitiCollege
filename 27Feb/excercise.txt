@@ -1,0 +1,4 @@
+1. Create a select with multiple options and a button.
+When you click a button if the item is not added, add it else display already added message.
+
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php

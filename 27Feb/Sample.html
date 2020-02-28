@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <script>
+        var myArr = [];
+        function myFunc(){
+            var e = document.getElementById("ddlViewBy");
+            
+            if(myArr.includes(e.options[e.selectedIndex].value) )
+            {
+                alert('already exists..');
+            }
+            else
+            {
+                myArr.push(e.options[e.selectedIndex].value);
+                alert('added..');
+            }
+
+            console.log(myArr);
+        }
+    </script>
+    <select id="ddlViewBy">
+        <option >--</option>
+        <option value="Printer 1">Printer 1</option>
+        <option value="Printer 2" >Printer 2</option>
+        <option value="Printer 3">Printer 3</option>
+      </select>
+      <button onclick="myFunc()">Add to Cart</button>
+      <div></div>
+</body>
