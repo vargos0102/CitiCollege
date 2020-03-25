@@ -1,0 +1,7 @@
+INSERT INTO `employeedb`.`employee_details` (`employee_id`, `employee_name`, `employee_phone_number`)
+VALUES 
+(10,'Peagus4','4379991234'),
+(11,'Peagus5','4379991234'),
+(12,'Peagus6','4379991234');
+
+SELECT * FROM employeedb.employee_details

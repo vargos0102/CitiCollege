@@ -1,0 +1,51 @@
+what is the meaning database
+- information about something we store
+
+How database is useful
+
+What is database?
+- data meaning information, base means collection
+
+Why do we need it?
+- to have it consistent across.
+- to store user specific information
+
+Only 4 sets of operations you can perform on a database..
+- Read the information from the database
+- Create information on the db
+- Update information on the db
+- Delete information on the db
+
+CRUD - operations 
+
+Article to read/ assignment.
+- 
+
+Database Software (MySql - free/paid)
+1. MySql (Structured Query Language)
+
+How is the actual data stored?
+- tables 
+
+A database is a collection of tables..
+
+To uniquely identify the employee
+Id column needs to be unique
+Id column uniquely identifies a record
+
+Common Datatypes:
+INT - Numbers
+VarChar - A-Z/1-9/[]/+-
+
+Postal Code - L5A 3Y5
+
+Create - Create/ Insert  
+Read  -  Select 
+Update - Update
+Delete - Delete
+
+PK - Primary Key 
+NN - Not Nullable
+AI - Auto Increment
+
+Primary Key - Main Value
