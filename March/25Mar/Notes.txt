@@ -1,0 +1,11 @@
+CRUD (perform these CRUD operations in db)
+
+Create - Create/ Insert  (Insert is to insert data into the table) 
+Read  -  Select  (to query/ read the data from the table)
+Update - Update (to update any value)  
+Delete - Delete (to delete records from the table)
+
+
+Conditional Clause
+
+1. WHERE : to filter the entire table based on a condition

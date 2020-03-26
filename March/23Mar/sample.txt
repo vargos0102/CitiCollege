@@ -39,13 +39,16 @@ VarChar - A-Z/1-9/[]/+-
 
 Postal Code - L5A 3Y5
 
-Create - Create/ Insert  
-Read  -  Select 
-Update - Update
-Delete - Delete
+Create - Create/ Insert  (Insert is to insert data into the table) 
+Read  -  Select  (to query/ read the data from the table)
+Update - Update (to update any value)  
+Delete - Delete 
+
 
 PK - Primary Key 
 NN - Not Nullable
 AI - Auto Increment
 
 Primary Key - Main Value
+
+SET SQL_SAFE_UPDATES=0;
