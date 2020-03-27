@@ -1,0 +1,18 @@
+SELECT * FROM employeedb.employee_details
+ORDER BY employee_phone_number DESC;
+
+SELECT * FROM employeedb.employee_details
+WHERE employee_phone_number IS NOT NULL 
+AND 
+employee_name IS NOT NULL;
+
+SELECT * FROM employeedb.employee_details
+WHERE employee_name IS NULL 
+OR
+employee_phone_number IS NULL; 
+
+SELECT employee_name, employee_phone_number FROM employeedb.employee_details
+WHERE employee_name IS NOT NULL 
+and
+employee_phone_number IS NOT NULL
+ORDER BY employee_name;
