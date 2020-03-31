@@ -1,0 +1,22 @@
+Functions: 
+These are predefined set of logic to give us the result
+
+In-built function in MySQL are:
+
+1. Min()
+2. Max()
+3. Count()
+4. Sum()
+5. Avg()
+
+LIMIT: To filter or limit the record set to a specific number
+
+
+
+Excercise 1: Find all the records from classicmodels.payments table after the year 2004
+
+Excercise 2: Find the number of employees reportTo 1143 from classicmodels.employees table
+
+
+
+

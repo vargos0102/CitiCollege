@@ -1,0 +1,17 @@
+SELECT orderNumber, MIN(orderDate), requiredDate,
+shippedDate, status, comments, customerNumber
+FROM classicmodels.orders
+
+SELECT customerNumber, checkNumber, MAX(paymentDate), amount
+FROM classicmodels.payments
+
+SELECT COUNT(*)
+FROM classicmodels.orders
+
+SELECT SUM(creditLimit) FROM classicmodels.customers;
+
+SELECT AVG(creditLimit) FROM classicmodels.customers;
+
+SELECT * FROM classicmodels.payments
+ORDER BY amount DESC
+LIMIT 1;
