@@ -1,0 +1,17 @@
+Q: Find the second highest salary of an employee
+Q: Find the third highest amount..
+A: 
+
+We have learned to write simple queries which are executing directly on the table record set.
+
+Sub - Query:
+We will execute the query on top of the results of another query..
+
+Alias:
+Also known as, meaning you can provide your own name to the column or table for that 
+particular query only..
+
+Like:
+Similar to or somewhat matching
+
+

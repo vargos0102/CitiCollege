@@ -1,0 +1,54 @@
+SELECT * FROM 
+(SELECT * FROM classicmodels.orders
+WHERE shippedDate > '2005-01-01') AS temp 
+WHERE comments is not null
+
+SELECT * FROM (
+SELECT * FROM classicmodels.payments 
+ORDER BY amount DESC 
+LIMIT 2) AS pay 
+order by amount 
+limit 1
+
+SELECT * FROM (
+SELECT * FROM classicmodels.employees
+ORDER BY firstName DESC 
+LIMIT 2) AS temp
+order by firstName 
+limit 1
+
+UPDATE employeedb.employee_details
+SET employee_name = 'Kurt'
+WHERE employee_id = 2
+
+UPDATE employeedb.employee_details
+SET employee_phone_number = '001'
+WHERE employee_id = 3
+
+DELETE FROM employeedb.employee_details
+WHERE employee_id = 6
+
+SELECT DISTINCT customerNumber FROM classicmodels.payments;
+
+SELECT customerNumber as CustomerID, checkNumber as PaymentRecord, 
+paymentDate as PaidOn, amount as DueAmount
+FROM classicmodels.payments as Pay
+Order by DueAmount DESC
+
+SELECT temp.amount
+FROM classicmodels.payments as temp
+
+SELECT emp.lastName 
+FROM classicmodels.employees as emp
+
+SELECT * FROM classicmodels.employees
+WHERE firstName like '%oo%'
+
+SELECT * FROM classicmodels.payments
+Where amount like '6___.__'
+
+SELECT * FROM classicmodels.payments
+Where amount like '___6.__'
+
+SELECT * FROM classicmodels.payments
+Where amount like '___6.1_'
