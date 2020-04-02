@@ -1,0 +1,27 @@
+Wild Charachters other than % and _
+
+[] - Range wildcard, example Al[a-z]x
+-   Represents a range of characters, Al[a-c]x
+
+
+In: Clause
+It means you can specify more than one value to match the records
+
+Q: Find all the payments from 'Mini Wheel Co.' customer
+SELECT *, (SELECT customerName FROM classicmodels.customers WHERE customerNumber = 129) as CustomerName,
+(SELECT phone FROM classicmodels.customers WHERE customerNumber = 129) as Phone  
+FROM classicmodels.payments
+WHERE customerNumber = 129
+
+Between: Clause
+
+It simply means the values between a specific range..
+
+Group By: Clause
+It means to group together records based on one or more specific columns
+
+Q: Find how many employees reportTo 1143 in the employees table
+
+
+
+

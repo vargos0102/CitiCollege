@@ -1,0 +1,73 @@
+SELECT * FROM classicmodels.employees
+Where firstName IN ('Tom','Larry','Leslie');
+
+SELECT * FROM classicmodels.employees
+Where officeCode IN (1,2)
+
+SELECT * FROM classicmodels.employees
+WHERE firstName NOT IN ('Tom','Larry','Leslie','Steve')
+
+
+SELECT *, (SELECT customerName FROM classicmodels.customers WHERE customerNumber = 129) as CustomerName,
+(SELECT phone FROM classicmodels.customers WHERE customerNumber = 129) as Phone  
+FROM classicmodels.payments
+WHERE customerNumber = 129
+
+
+select * from classicmodels.payments
+WHERE customerNumber IN (
+SELECT customerNumber from classicmodels.customers
+WHERE customerName like 'Mini%'
+)
+
+SELECT * FROM classicmodels.orders
+WHERE customerNumber between 121 and 148
+
+SELECT * FROM classicmodels.employees
+Where firstName BETWEEN 'Larry' and 'Miami'
+order by firstName
+
+SELECT * FROM classicmodels.orders
+WHERE customerNumber NOT BETWEEN 200 and 400
+order by customerNumber 
+
+SELECT COUNT(customerNumber) , customerNumber FROM classicmodels.orders
+GROUP BY customerNumber 
+HAVING customerNumber = 129
+
+SELECT COUNT(orderDate) as orders, customerNumber FROM classicmodels.orders
+GROUP By customerNumber
+HAVING customerNumber = 496
+
+SELECT COUNT(*) FROM classicmodels.employees
+WHERE reportsTo = 1143
+
+SELECT COUNT(email), reportsTo from classicmodels.employees
+group by reportsTo
+having reportsTo IN (1102,1143)
+
+SELECT COUNT(productLine) as numbers, productLine FROM classicmodels.products
+GROUP BY productLine
+
+SELECT productLine, count(productName) FROM classicmodels.products
+GROUP BY productLine
+order by productLine
+
+SELECT productVendor,productLine, count(productName) FROM classicmodels.products
+GROUP BY  productVendor, productLine
+order by productVendor
+
+SELECT COUNT(productCode),productLine FROM classicmodels.products
+GROUP BY productLine
+
+
+
+
+
+
+
+
+
+
+
+
