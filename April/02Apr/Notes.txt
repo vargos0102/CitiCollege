@@ -1,0 +1,4 @@
+Foreign Key:
+
+Foreign Key defines relationship between two tables..
+(so one tables primary key column becomes foreign key column of another table)

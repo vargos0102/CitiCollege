@@ -1,0 +1,10 @@
+SELECT ed.employee_id, ed.employee_name , es.employee_base_salary, es.employee_bonus
+FROM employeedb.employee_details as ed
+JOIN employeedb.employee_salary as es 
+ON ed.employee_id = es.employee_Id
+
+
+SELECT pay.customerNumber, checkNumber, paymentDate, amount, cust.customerName, cust.creditLimit
+FROM classicmodels.payments as pay
+JOIN classicmodels.customers as cust 
+ON pay.customerNumber = cust.customerNumber
