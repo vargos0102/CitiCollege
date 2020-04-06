@@ -1,0 +1,9 @@
+Q: get the lastname, firstname, email, jobtitle and city of all the employees.
+
+SELECT emp.lastName, emp.firstName, email, emp.jobTitle, off.city
+FROM classicmodels.employees as emp
+JOIN classicmodels.offices as off
+ON emp.officeCode = off.officeCode
+
+
+
