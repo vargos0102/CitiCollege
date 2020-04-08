@@ -1,0 +1,4 @@
+Stored Procedures:
+
+We use stored procedures to store the sql query that can be run against different parameters.
+
