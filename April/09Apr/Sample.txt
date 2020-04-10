@@ -1,0 +1,40 @@
+SELECT employee_id, employee_name, employee_phone_number, ea.employee_address
+FROM employeedb.employee_details ed
+RIGHT JOIN employeedb.employee_address ea
+ON ed.employee_id = ea.empployee_id
+
+SELECT employee_id, employee_name, employee_phone_number, ea.employee_address
+FROM employeedb.employee_details ed
+LEFT JOIN employeedb.employee_address ea
+ON ed.employee_id = ea.empployee_id
+
+Q: Get all the customer details living in Canada along with Payments made.
+
+Columns: customerNumber, customerName, city, country, paymentDate and amount
+ 
+SELECT classicmodels.customers.customerNumber, classicmodels.customers.customerName, classicmodels.customers.city, 
+classicmodels.customers.country, classicmodels.payments.paymentDate, classicmodels.payments.amount
+FROM classicmodels.customers 
+JOIN classicmodels.payments 
+ON classicmodels.customers.customerNumber = classicmodels.payments.customerNumber
+Where country = 'Canada'
+
+Q: Update country of the record with CustomerNumber 103 to Canada.
+
+UPDATE classicmodels.customers
+SET country = 'Canada'
+WHERE customerNumber = 103
+
+DELETE FROM employeedb.employee_address
+WHERE id = 5
+
+Q: Insert employee salary for any employee present in employee details table
+
+INSERT INTO employeedb.employee_salary 
+VALUES ('5','600','150','7')
+
+
+
+
+
+

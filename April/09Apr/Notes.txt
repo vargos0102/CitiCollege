@@ -1,0 +1,15 @@
+
+     page -> MySql
+	  <-	
+
+code                                            code                           code
+Login Page(Html/JavaScript)     ->       Java(learn/to do)       ->    MySql(login table)
+
+accountfirm/business/amount     ->                               ->    single/multiple tables
+employeesOnlyWebPage -> Java Code -> Database
+login -> employees
+
+email/password  ->                       check in database       ->    all email/password 
+
+ 
+ 
