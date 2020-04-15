@@ -1,0 +1,32 @@
+What is Java?
+- Java is a object-oriented programming language.
+It was Sun Microsystems/ Oracle. 
+Java has current version 8, SDK (Software Development Kit) version 14. 
+
+(Program or kind of language, we use it for website and database. for any app
+Validations and applications/functions, example for payment)
+
+Why do we need it?
+To write complex web and desktop applications.
+Example: 
+ShoppersDrugMart, to buy medicines.
+to keep of all his pharmacy
+
+Web
+Retail sites: Amazon, Walmart
+FedEx/Ups: 
+
+What is Object-Oriented programming language?
+- Any language that describe any real world problem in classes and objects, is called object-oriented
+programming language.
+Example: 
+real world: Car
+Java world: object of Car
+
+Why are you learning Java?
+- Computer doesn't understand any spoken language
+- You don't understand 0's and 1's: 0001100
+
+Whatever you write in Java, it compiles and run them.
+You -> Code -> .jar -> Compiler -> machine language
+

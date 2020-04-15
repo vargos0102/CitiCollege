@@ -1,0 +1,24 @@
+        //Java variables
+        //String means, it is going to hold any value between double quotes ""
+        //name is variable
+        String name = "John@123";
+        System.out.println(name);
+
+        //int, to hold whole numbers, to perform arithmetic operations
+        int number1 = 200343 + 33333;
+        int number2 = 77;
+        int result = number1 * number2;
+
+        System.out.println(result);
+
+        //boolean, can only store 2 values, which is true or false
+        boolean flag = false;
+        System.out.println(flag);
+
+        //float, it holds numbers with decimals
+        float decimalNumber = 122.22f;
+        System.out.println(decimalNumber);
+
+        //char, It holds a single character
+        char oneChar = 'F';
+        System.out.println(oneChar);
