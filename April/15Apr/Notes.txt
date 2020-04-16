@@ -1,0 +1,7 @@
+Revision:
+        // Java variables: int speed = 100; speed(variable); String name = "Alex", (name is the variable)
+        // Java Data types: int, String, char, boolean, float
+        // Java Operators: +, -, *, /, ++
+
+Today:
+Strings: have some inbuilt functions to help you perform common operations.
