@@ -1,0 +1,28 @@
+Revision:
+        // Java variables: int speed = 100; speed(variable); String name = "Alex", (name is the variable)
+        // Java Data types (Primitive): int, String, char, boolean, float
+        // Java Operators: +, -, *, /, ++
+	// Common String functions: indexOf(" "), concat(parameter), length(), toUpperCase()
+	// Common Math functions: Math.abs(param),  Math.max(para1, para2), Math.min(para1, para2), 
+	   Math.sqrt(para1), Math.random() 
+
+Today:
+
+Typecasting: Changing one data type to another data type
+
+int (20) -> double (20.00)
+double (20.20) -> int (20)
+----
+double: which will give 15-16 decimal points (11.123456789987654)
+float: which will give 7-8 decimal points (11.1234567)
+
+----
+
+int x = 11;
+x = x + 5;
+----
+
+
+
+
+

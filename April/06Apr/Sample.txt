@@ -3,3 +3,9 @@ emp.employee_phone_number, adrs.employee_address
 FROM employeedb.employee_details as emp
 left JOIN employeedb.employee_address as adrs
 ON emp.employee_id = adrs.empployee_id
+
+SELECT  emp.employee_id, emp.employee_name, 
+emp.employee_phone_number, adrs.employee_address
+FROM employeedb.employee_details as emp
+RIGHT JOIN employeedb.employee_address as adrs
+ON emp.employee_id = adrs.empployee_id

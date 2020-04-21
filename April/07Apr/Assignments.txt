@@ -35,3 +35,10 @@ where creditLimit > 21000 and country = 'USA'
 
 6. Get the list of customers from the customer table which lives in USA and 
    have names starting with letter A
+
+SELECT * FROM classicmodels.customers
+WHERE country = 'USA' and customerName like 'A%'
+
+
+
+
