@@ -1,0 +1,165 @@
+package citi.apr22;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        //if you have a BMW, change oil, condition(something true or false)
+        // otherwise don't do anything
+
+        String name = "hussam";
+
+        if(name == "Hussam")// "hussam"=="Hussam"
+        {
+            System.out.println("Drink a glass of water");
+        }
+        else
+        {
+            System.out.println("Don' do anything");
+        }
+        //
+        int employeeId = 1002;
+
+        if(employeeId == 1)
+        {
+            System.out.println("You are average employee");
+        }
+        else
+        {
+            System.out.println("You are best employee");
+        }
+        //
+
+        // if Hussam, drink water
+        // if Alex, drink coke
+        // if John, drink tea
+        String name1 = "Alex";
+        switch (name1)
+        {
+            case "Hussam":
+                System.out.println("Drink water");
+                break;
+            case "Alex":
+                System.out.println("Drink coke");
+                break;
+            case "John":
+                System.out.println("Drink tea");
+                break;
+
+        }
+        // Doing something again and again
+
+        for(int i = 0; i<=2; i++ )
+        {
+            System.out.println("Hussam "+ i);
+        }
+        //
+        for(int i = 1; i<=5;i++)
+        {
+            System.out.println("you are best employee "+i);
+        }
+
+        //for each, loop
+        //String name = "Hussam";
+        String[] names = {"Hussam","Alex**7","John3","Sam4"};
+
+        for (String n: names ) {
+            System.out.println(n);
+        }
+        //
+        int[] numbers = {1002,999,1234,9875};
+
+        for(int i: numbers)
+        {
+            System.out.println(i);
+        }
+        //
+
+        String name2 ="Hussam";
+        int c = 4;
+
+        while(c<5)
+        {
+            System.out.println(name2 + c);
+            c++;
+        }
+        //
+        String name3 ="Hussam";
+        int d = 99;
+
+       do
+        {
+            System.out.println(name2 + d);
+            d++;
+        } while(d<5);
+        //
+
+        String name4 = "Alex";
+        int e = 1;
+
+        do{
+            System.out.println(name4 +e);
+            e++;
+        }while(e<5) ;
+
+        //Equals to example
+        int x = 9, y = 10;
+
+        if(x==y) // left hand side value compared to right hand side value
+        {
+            System.out.println("Equal to condition is true");
+        }
+        else
+        {
+            System.out.println("Equal to condition is false");
+        }
+        //Not equals to example
+        if(x != y)
+        {
+            System.out.println("Not equals");
+        }
+        else
+        {
+            System.out.println("Equals");
+        }
+
+        for (int i = 1; i <= 10; i++) {
+            if(i==4) //the value you have mentioned here
+            {
+                continue;// skips the loop
+            }
+            System.out.println(i);
+        }
+        //
+        for (int i = 0; i < 5 ; i++) {
+            if(i==2)
+            {
+                continue;
+            }
+
+            System.out.println(i);
+        }
+        //break means stop
+
+        for (int i = 11; i < 21 ; i++) {
+            if(i == 15)
+            {
+                break;
+            }
+            System.out.println(i);
+        }
+
+        //
+        for (int i = 90; i < 101; i++) {
+            if(i==95)
+            {
+                break;
+            }
+            System.out.println(i);
+        }
+
+    }
+    //
+
+
+}
