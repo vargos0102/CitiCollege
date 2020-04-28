@@ -1,0 +1,36 @@
+Revision:
+        // Java variables: int speed = 100; speed(variable); String name = "Alex", (name is the variable)
+        // Java Data types (Primitive): int, String, char, boolean, float
+        // Java Operators: +, -, *, /, ++
+	// Common String functions: indexOf(" "), concat(parameter), length(), toUpperCase()
+	// Common Math functions: Math.abs(param),  Math.max(para1, para2), Math.min(para1, para2), 
+	   Math.sqrt(para1), Math.random() 
+	// Booleans: true or false values, ex: bool flag = true;
+	// if..else statement: if(condition) {} else {}
+	// Switch statement: switch(value) {case 1: break;}
+	// for loop: for(int i = 0; i<number;i++){}
+	// for each loop: for(String i: array){} 
+
+Today:
+
+Loops(continue): for, foreach, while, do While
+
+While loop: which will run till the condition is true
+
+do while loop: it will be excuted at least once..
+-----------------------------------------------------
+ Q. Create an String array of cars, print all the values using for loop..
+
+    String[] cars = {"Volvo","BMW", "Nissan"}; //declare an array of Strings	
+    for(int i = 0; i<cars.length; i++) { 
+	System.out.println(cars[i]);	
+}    
+
+ Q. Run a while loop from 1 to 10 and print all the numbers..
+
+int n = 1;	
+while(n<=10)
+{
+	System.out.println(n);
+	n++;
+}
