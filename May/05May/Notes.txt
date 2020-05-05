@@ -1,0 +1,15 @@
+Excercise:
+
+- Create an Employee class with following attributes
+    EmployeeId(int)    
+    Name    
+    Designation
+    Salary
+    Date of Birth(Date) (Jan 12, 1990) 01/12/1990
+	
+- EmployeeId should have default value of 1001
+
+- Create a class Method to Display Salary and Designation. If there is no 
+  salary information. Display only designation.  
+
+- Create a class method to Display Age. 
