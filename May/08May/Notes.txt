@@ -1,0 +1,44 @@
+Revision:
+        // variables: int speed = 100; speed(variable); String name = "Alex", (name is the variable)
+        // Data types (Primitive): int, String, char, boolean, float, LocalDate(java.time.LocalDate)
+        // Operators: +, -, *, /, ++
+	// Common String functions: indexOf(" "), concat(parameter), length(), toUpperCase()
+	// Common Math functions: Math.abs(param),  Math.max(para1, para2), Math.min(para1, para2), 
+	   Math.sqrt(para1), Math.random() 
+	// Booleans: true or false values, ex: bool flag = true;
+	// if..else statement: if(condition) {} else {}
+	// Switch statement: switch(value) {case 1: break;}
+	// for loop: for(int i = 0; i<number;i++){}
+	// for each loop: for(String i: array){} 
+	// while loop: while (condition) {}
+        // do while loop: do {} while(condition)
+	// break, meaning stop in a loop. while () { if(i==4){ break; } }
+        // continue, meaning skip and go to next. while(condition) { if(i==4){ continue; } }
+        // Arrays: it a collection of any datatype.
+	// Method: to keep repetative logic/operation in one place and to reuse it for different inputs.	
+	    // public : it can be called or accessed by anyone(any other method)
+    	   // void : it returns nothing
+          // () : input parameters, separated by comma (,,,)
+	// method overloading:
+	// 1. number of input parameters are changing
+	// 2. Data type is different
+	// 3. Return type is different
+       --- 
+ 	// Class, Objects, Class Methods, Constructors (default values) 
+        // Java Packages : Built-in (java.util.*)  and User-defined packages(citi.May06.Employee)
+        // Java User Input(System.util.Scanner): to read the user provided input.
+-----------------------------------------------------------------------------------------------------------
+OOPS: Object Oriented Programming Languages: Java, C#, Python, Go
+4 Major pillars of OOPS: 
+Encapsulation: to group information or hide information from users
+
+Excercise: Create Student Class
+- FullName
+- RollNumber
+
+Create Getter and Setter for both these attributes
+
+
+
+
+
