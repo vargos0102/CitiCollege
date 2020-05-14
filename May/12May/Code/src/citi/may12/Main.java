@@ -1,8 +1,8 @@
 package citi.may12;
+import citi.excercise.Employee;
+import citi.excercise.Person;
+import citi.w3c.*;
 
-import citi.w3c.Animal;
-import citi.w3c.Cat;
-import citi.w3c.Dog;
 
 public class Main {
 
@@ -28,5 +28,11 @@ public class Main {
 
         Animal a3 = new Cat();
         a3.animalSound();
+
+        Person p1 = new Person();
+        p1.DisplayInfo();
+
+        Person p2 = new Employee();
+        p2.DisplayInfo();
     }
 }

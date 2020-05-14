@@ -1,4 +1,10 @@
 package citi.may11;
 
-public class Vehicle {
+ class Vehicle {
+    protected String Brand = "Ford";
+
+    protected void Honk()
+    {
+       System.out.println("Honk! Honk!");
+    }
 }
