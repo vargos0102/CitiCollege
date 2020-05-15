@@ -60,4 +60,28 @@ Interface would only contain declarations, you can't provide definition(body) fo
 1. Interface can only method declarations and no definitions while Abstract classes can have a combination of abstract and non-abstract methods.
 2. A class can inherit from only one abstract class but a class can inherit from multiple interfaces, multiple inheritance
 
+Excercise:
+Create a new package excercise, Create an abstract class Person with an abstract method DisplayName(), inherit this Person abstract class to 
+Employee class and in the Main class call DisplayName on Employee class object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
