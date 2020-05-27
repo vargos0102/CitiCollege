@@ -40,19 +40,16 @@ Revision:
 		- class: You can't instantiate a class
 		- method: Abstract methods can't have a body (can't exist without an abstract class)
 	//Interface:skeleton which a class should follow.(Interface would only contain declarations, you can't provide definition(body) for any function)
-	//ArrayList: It's resizable array unlike the Array (java.util.ArrayList), 
-	  with inbuilt methods for sort(Collections.sort(arraylistname)) and size
+	//ArrayList: It's resizable array inlike the Array (java.util.ArrayList)
+	//HashMap: its a collection of key value pair.
 ---------------------------------------------------------------------------------------------------------------------------------------
-ArrayList: collection of similar types
+Exceptions: 
 
-HashMap: its a collection of key value pair.
+Q1. Can you have multiple catch blocks?
+Yes
 
-
-
-
-
-
-
+Q2. Can try block exist without catch?
+Yes only try and finally can exist.
 
 
 

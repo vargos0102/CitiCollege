@@ -1,0 +1,12 @@
+Files in Java:
+
+Like any other programming langauge you can create/read/update and delete files 
+in Java as well.
+
+1. Create a file
+2. Write into a file 
+3. How to get file information
+
+
+4. Read the file
+5. deleting the file

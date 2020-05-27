@@ -44,6 +44,7 @@ Revision:
 ArrayList: It's resizable array inlike the Array (java.util.ArrayList)
 
 
+HashMap: its a collection of key value pair.
 
 
 

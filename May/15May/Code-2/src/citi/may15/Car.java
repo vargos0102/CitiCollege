@@ -21,8 +21,7 @@ public class Car implements Comparable<Car> {
     }
 
     @Override
-    public int compareTo(Car car) {
-        return this.ModelName.compareTo(car.ModelName);
+    public int compareTo(Car c12) {
+        return this.ModelName.compareTo(c12.ModelName);
     }
-
 }

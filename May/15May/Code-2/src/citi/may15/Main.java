@@ -29,8 +29,6 @@ public class Main {
         sampleCars.remove(0);
         System.out.println(sampleCars);
 
-
-
         //The arraylist is resizable.
 
         //Array int
@@ -71,10 +69,14 @@ public class Main {
         Collections.reverse(cartoonNames);
         System.out.println(cartoonNames);
 
+        //Custom classes and objects
         ArrayList<Car> customCars = new ArrayList<>();
 
         customCars.add(new Car("Mercedes","S-Class","Sport",2020,240));
         customCars.add(new Car("Toyota","RAV4","SUV",2018,220));
+
+        Car c2 = new Car("Nissan","Sentra","Sedan",2010,140);
+        customCars.add(c2);
 
         Car c1 = new Car();
         c1.BrandName = "Honda";
@@ -88,5 +90,8 @@ public class Main {
         for (Car c: customCars) {
             System.out.println(c.ModelName);
         }
+
+
+
     }
 }
