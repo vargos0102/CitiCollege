@@ -28,6 +28,7 @@ public class Main {
                     System.out.println("Add text to file:");
                     String userText = scanObj.nextLine();
                     writerObj.write(userText);
+                    writerObj.write(System.getProperty("line.separator"));
                     System.out.println("Do you wish to add more content to file?");
                     userDecision=scanObj.nextLine();
                 }while(userDecision.equals("y"));
@@ -37,7 +38,7 @@ public class Main {
         }
         catch(Exception e)
         {
-
+            e.printStackTrace();
         }
 
     }

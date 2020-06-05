@@ -1,0 +1,64 @@
+All java code produces .jar files which is the bundled based on your project structure(package name).
+---
+
+Command Line Application (basics)
+Web applications
+ - Java 
+ - Spring Boot
+
+Spring: As a framework. 
+Spring Boot: Spring is a framework and boot simplify startup configurations.
+
+Spring Boot is a Spring framework module which provides RAD (Rapid Application Development) feature to the Spring framework. 
+It is highly dependent on the starter templates feature which is very powerful and works flawlessly.
+
+
+Spring Boot is popular framework to create Web(Rest) Api and JSP applications.
+
+What is REST API(Application Program Interface)?
+- a communication platform for 2 applications to interact with each other.
+
+RESTful API
+- Mode of communcation between 2 applications 
+
+What is REST(Representational State Transfer) ?
+- Web services adhering to REST principles are called as RESTful API.
+  - Client-Server 
+  - Stateless
+  - Cacheable
+  - Uniform Interface
+  - Layered system
+
+- Information is shared on the http/ https protocol
+
+CRUD - Create/ Read/ Update/ Delete
+There are only 4 operations that you can perform using http protocol
+- GET : To get any information from the server(application) 
+- POST : To add any information to the server
+- PUT : To update any information 
+- DELETE : Delete something on the server
+
+
+http://localhost:8080/Hello-World
+
+
+to do:
+1. Create a simple demo application
+2. provide examples for rest apis
+
+Spring Boot (Web API and JSP) - MVC 
+Model View Controller
+
+Controller - Is the main class 
+Model - Classes
+View - User presentation
+
+JSON - (Javascript object notation) 
+
+
+http request/ response
+
+POJO - Plain old Java Object
+Dao - Data access object
+
+
