@@ -62,3 +62,24 @@ POJO - Plain old Java Object
 Dao - Data access object
 
 
+POST: To add the data to the data source, it can be database or arraylist.
+In post man -> Headers-> key: Content-type value: application/json
+Body -> paste the JSON object to be inserted
+
+
+404 Exception: We are throwing this exception when there is no record
+found by that Id
+
+DELETE:When you want to delete something.
+
+VAlidation: 
+
+Data Source: Everytime you make changes to it, the data is not 
+persisted.
+
+ 
+
+
+
+
+

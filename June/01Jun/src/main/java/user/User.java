@@ -1,11 +1,15 @@
 package user;
 
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class User {
 
     private Integer id;
+    @Size(min=5,message= "Name should have at least 5 characters")
     private String name;
+    @Past(message = "Date of birth can not be a past date")
     private Date dob;
 
     @Override
