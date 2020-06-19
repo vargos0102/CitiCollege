@@ -4,14 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
 import java.net.URI;
 import java.util.List;
-import java.util.Set;
-import javax.validation.*;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
+import javax.validation.Valid;
 
 @RestController
 public class UserResource {
@@ -39,14 +35,6 @@ public class UserResource {
     @PostMapping("/user/add")
     public ResponseEntity<Object> createUser(@Valid @RequestBody User user){
         User savedUser = service.save(user);
-
-        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-        Validator validator = factory.getValidator();
-        Set<ConstraintViolation<User>> violations = validator.validate(user);
-
-        for (ConstraintViolation<User> violation : violations) {
-            violation.getMessage();
-        }
 
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
                 .buildAndExpand(savedUser.getId()).toUri();

@@ -72,12 +72,19 @@ found by that Id
 
 DELETE:When you want to delete something.
 
-VAlidation: 
+Validation: Done
+
+Security: authentication
 
 Data Source: Everytime you make changes to it, the data is not 
 persisted.
 
- 
+
+Authentication: When you enter correct user name and password you
+get access to data.
+
+Authorization: Admin you want all the data,
+read permissions with not all data visible 
 
 
 

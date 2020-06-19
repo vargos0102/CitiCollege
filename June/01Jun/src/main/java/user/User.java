@@ -9,7 +9,7 @@ public class User {
     private Integer id;
     @Size(min=5,message= "Name should have at least 5 characters")
     private String name;
-    @Past(message = "Date of birth can not be a past date")
+    @Past(message = "Date of birth can be a past date")
     private Date dob;
 
     @Override

@@ -1,0 +1,21 @@
+Source Control (version control) - managing the changes in the code.
+It also tracks the history.
+
+Git - command lines that you execute to your files(add/update/delete)
+
+GitHub - hosting(save) your own code centrally
+Commit - binding/ making sure this is the file, I want to push
+Push - Pushing my changes to the repository
+
+commands(remember) 
+
+git init (initialize)
+git add helloworld.txt(only one file) or git add .(all files)
+git commit -m "added Blog class"
+git remote add origin https://github.com/rovinstanley/CitiCollege.git
+git push -u origin master
+
+git add .                     (track all the files that changed)
+git commit -m "second commit" (message that needs to be shown)
+git push                      (sync the changes now)
+
