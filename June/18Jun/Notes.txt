@@ -33,3 +33,8 @@ you would want to keep track of all the changes done by every developer.
 
 gitk - command to open the visual representation of the git tracking tree.
 
+---------------------------------
+branching and merging - One main branch and you create your own branch to work on it
+separately.
+
+
