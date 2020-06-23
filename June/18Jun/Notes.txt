@@ -19,3 +19,17 @@ git add .                     (track all the files that changed)
 git commit -m "second commit" (message that needs to be shown)
 git push                      (sync the changes now)
 
+-----------------------------------------------------------------------
+
+github is your personal code store - you are keeping code.(Private)
+
+Github ideally meant to store code for a team or share code across users.
+
+Any code that needs to be worked together by the team of developers needs to 
+be in public repository.
+
+you would want to keep track of all the changes done by every developer.
+--------------------
+
+gitk - command to open the visual representation of the git tracking tree.
+
