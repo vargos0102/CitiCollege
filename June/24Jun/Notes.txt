@@ -1,0 +1,15 @@
+html/css/javascript: static website
+
+complex website involving databases: 
+organizations/banking/internal/payrolls/accounts/amazon/ups/canada post/
+
+Javascript frameworks: Angular/React/Vue
+SPA: Single Page application
+Rich and seamless UI interaction:  
+It makes development quick.
+
+Course: 
+
+Node - Basic language to run your angular app
+npm - Nuget package manager
+ng - Angular command

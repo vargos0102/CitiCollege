@@ -37,4 +37,4 @@ gitk - command to open the visual representation of the git tracking tree.
 branching and merging - One main branch and you create your own branch to work on it
 separately.
 
-
+merge - to merge back the to main or master branch.
