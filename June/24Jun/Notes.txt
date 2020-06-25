@@ -12,4 +12,7 @@ Course:
 
 Node - Basic language to run your angular app
 npm - Nuget package manager
+Angular/cli - command line for running angular apps 
 ng - Angular command
+
+it will divide application into multiple smaller components
