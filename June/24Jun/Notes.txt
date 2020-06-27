@@ -16,3 +16,28 @@ Angular/cli - command line for running angular apps
 ng - Angular command
 
 it will divide application into multiple smaller components
+
+1. smooth looking/ polished/
+- the interaction was easy. 
+  it feels fast.
+
+2. good looking input button
+- bootstrap css & material icons
+
+3. doing a lot of work
+- adding/ deleting
+
+
+4. Simple/ save time/
+- it looks simple, less code 
+
+5. Dynamic
+- events are responded on client side
+
+Angular - Single page application that runs 
+on client side/ browser
+
+One component consists of 1 css, 1 html, 1 typescript file
+
+Components - 
+
