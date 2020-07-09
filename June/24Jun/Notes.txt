@@ -41,3 +41,15 @@ One component consists of 1 css, 1 html, 1 typescript file
 
 Components - 
 
+Production Mode - When you deploy the code and ready for use
+Development Mode - When you buildinging code and debug
+
+SPA
+app.component -> 1 component
+rovin.component -> 2 component {css, html, ts}
+
+Routing -> In the URL if you write localhost:4200/home /home becomes one of the routes.
+localhost:4200/Register -> /Register becomes the route
+
+ng generate component name-of-component
+ng g c home
