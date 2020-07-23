@@ -36,22 +36,22 @@ public class BlogController {
 
 
     @PostMapping("/blog")
-    public Blog create(@RequestBody Map<String,String> body)
+    public Blog create( @RequestBody Blog body)
     {
-        String title = body.get("title");
-        String content = body.get("content");
+        //String title = body.get("title");
+        //String content = body.get("content");
 
-        Blog blog = new Blog(title,content);
+        Blog blog = new Blog(body.getTitle(),body.getContent());
 
         return blogRepository.save(blog);
     }
 
     @PutMapping("/blog/{id}")
-    public Blog update (@PathVariable int id, @RequestBody Map<String,String> body)
+    public Blog update (@PathVariable int id, @RequestBody Blog body)
     {
         Optional<Blog> blog = blogRepository.findById(id);
-        blog.get().setTitle(body.get("title"));
-        blog.get().setContent(body.get("content"));
+        blog.get().setTitle(body.getTitle());
+        blog.get().setContent(body.getContent());
 
         return blogRepository.save(blog.get());
     }

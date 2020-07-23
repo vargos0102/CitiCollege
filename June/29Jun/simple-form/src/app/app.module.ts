@@ -17,10 +17,21 @@ import {
   MatInputModule,
   MatToolbarModule,
 } from "@angular/material";
+
+import { MatPaginatorModule } from "@angular/material";
+import { MatSortModule } from "@angular/material/sort";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+
 import { BlogServiceService } from "./blog-service.service";
+import { CreateBlogComponent } from "./create-blog/create-blog.component";
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, RegisterComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    RegisterComponent,
+    CreateBlogComponent,
+  ],
   imports: [
     BrowserModule,
     FormsModule,
@@ -35,6 +46,9 @@ import { BlogServiceService } from "./blog-service.service";
     MatToolbarModule,
     MatTableModule,
     HttpClientModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatSnackBarModule,
   ],
   providers: [BlogServiceService],
   bootstrap: [AppComponent],

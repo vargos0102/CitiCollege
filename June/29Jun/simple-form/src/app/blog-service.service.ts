@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 // import { User } from '../model/user';
 import { Observable } from "rxjs";
+import { Blog } from "./Blog";
 
 @Injectable({
   providedIn: "root",
@@ -17,7 +18,15 @@ export class BlogServiceService {
     return this.http.get(this.blogUrl);
   }
 
-  public add(blog: any) {
+  public add(blog: Blog) {
     return this.http.post(this.blogUrl, blog);
+  }
+
+  public update(id: number, blog: Blog) {
+    return this.http.put<Blog>(this.blogUrl + "/" + id, blog);
+  }
+
+  public delete(id: number) {
+    return this.http.delete(this.blogUrl + "/" + id);
   }
 }

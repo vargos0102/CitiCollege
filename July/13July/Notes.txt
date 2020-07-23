@@ -1,0 +1,11 @@
+Front-end - Back-end - Database
+Angular - Java REST API - MySQL
+
+Angular(Simple-form) - API(CRUD) - MySQL (Blog)
+Reading the contents of your blog table
+
+HomeComponent - ng g c Home (html, css, typeScript code)
+Blog-Service  - ng g s blog-service (api calls)
+
+app.module.ts - always contains modules you need in your application.
+

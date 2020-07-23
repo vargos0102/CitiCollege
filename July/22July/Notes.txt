@@ -1,0 +1,8 @@
+1. Success message 
+- Create/Update/Deleting
+- snackbar (code)
+- createblog.component.html/createblog.component.ts
+
+
+2. Progessbar
+

@@ -1,0 +1,35 @@
+Amira:
+update choose angular. 
+
+Ahmad: 
+add butoon to update(home.component.html/ besides delete/ 
+for us to know which record )
+We go to edit page, title content of the record,
+update the record on submit (API method PUT(update))
+
+Apply button
+same as for delete, host.
+
+Hussam: 
+Rovin: Put method in intelij
+angular activate
+
+Narina: same steps as create.
+link requested id to data to update(title/content)
+reflect the change.
+blog controller
+add function to blog service
+add link to 8080 
+
+1. we put the edit button
+2. record should display current title and content to update
+a. you have to pass this record(id/title/content)
+b. same as create blog(auto populate the data)
+c. Change and hit submit
+3. call the blog-service method update on submit button
+4. blog-service.service to call  api put method
+5. Routes - /home -> homecomponent /edit -> create component /create -> create component
+app-routing.module.ts
+
+CRUD-
+

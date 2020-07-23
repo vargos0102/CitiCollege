@@ -1,0 +1,42 @@
+<div class="container" style="padding: 1em; text-align: center;">
+  <form [formGroup]="form" (ngSubmit)="submit()" class="example-form">
+    <p>
+      <mat-form-field style="width: 40%;">
+        <mat-label>Title*</mat-label>
+        <input matInput placeholder="Enter Title" formControlName="title" />
+        <mat-error *ngIf="f.title.errors && f.title.errors.required">
+          Title required</mat-error
+        >
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field style="width: 40%;">
+        <mat-label>Enter Blog Content</mat-label>
+        <textarea
+          matInput
+          placeholder="Blog Content"
+          required
+          formControlName="content"
+        ></textarea>
+        <mat-error *ngIf="f.content.errors && f.content.errors.invalid"
+          >Invalid Email Address</mat-error
+        >
+        <mat-error *ngIf="f.content.errors && f.content.errors.required"
+          >Blog Content required</mat-error
+        >
+      </mat-form-field>
+    </p>
+
+    <button mat-raised-button color="primary" type="submit">
+      Submit
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      [routerLink]="['/home']"
+      style="margin-left: 4rem;"
+    >
+      Back
+    </button>
+  </form>
+</div>
