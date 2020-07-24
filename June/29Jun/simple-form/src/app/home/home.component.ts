@@ -22,7 +22,14 @@ export class HomeComponent implements OnInit {
   @ViewChild(MatSort, { static: true }) sort: MatSort;
 
   blogs: any;
-  displayedColumns: string[] = ["id", "title", "content", "edit", "actions"];
+  displayedColumns: string[] = [
+    "id",
+    "title",
+    "content",
+    "createdDate",
+    "edit",
+    "actions",
+  ];
   dataSource = new MatTableDataSource([]);
 
   ngOnInit() {

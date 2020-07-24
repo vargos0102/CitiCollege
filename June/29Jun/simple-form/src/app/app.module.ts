@@ -21,6 +21,7 @@ import {
 import { MatPaginatorModule } from "@angular/material";
 import { MatSortModule } from "@angular/material/sort";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { MatProgressBarModule } from "@angular/material/progress-bar";
 
 import { BlogServiceService } from "./blog-service.service";
 import { CreateBlogComponent } from "./create-blog/create-blog.component";
@@ -49,6 +50,7 @@ import { CreateBlogComponent } from "./create-blog/create-blog.component";
     MatPaginatorModule,
     MatSortModule,
     MatSnackBarModule,
+    MatProgressBarModule,
   ],
   providers: [BlogServiceService],
   bootstrap: [AppComponent],

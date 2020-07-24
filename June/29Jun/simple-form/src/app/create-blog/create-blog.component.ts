@@ -13,6 +13,8 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 export class CreateBlogComponent implements OnInit {
   isEdit: boolean;
   blog: any;
+  showProgressBar: boolean;
+
   constructor(
     private blogService: BlogServiceService,
     private router: Router,
@@ -46,6 +48,8 @@ export class CreateBlogComponent implements OnInit {
   ngOnInit() {}
   submit() {
     if (this.form.valid) {
+      this.showProgressBar = true;
+
       let blog = {
         title: this.form.value.title,
         content: this.form.value.content,
@@ -53,10 +57,12 @@ export class CreateBlogComponent implements OnInit {
 
       if (this.isEdit) {
         this.blogService.update(this.blog.id, blog).subscribe((data) => {
+          this.showProgressBar = false;
           this.openSnackBar("Record got update", "Success!");
         });
       } else {
         this.blogService.add(blog).subscribe((data) => {
+          this.showProgressBar = false;
           this.openSnackBar("Record got created", "Success!");
           this.form.reset();
           this.form.clearValidators();

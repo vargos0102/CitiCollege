@@ -1,6 +1,7 @@
 package citiCollege.Jun;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Blog {
@@ -9,19 +10,15 @@ public class Blog {
     private int id;
     private String title;
     private String content;
+    @Column(name="createddate")
+    private Date createddate;
 
-    public Blog() {
+    public Date getCreatedDate() {
+        return createddate;
     }
 
-    public Blog(String title, String content) {//
-        this.title = title;
-        this.content = content;
-    }
-
-    public Blog(int id, String title, String content) {
-        this.id = id;
-        this.title = title;
-        this.content = content;
+    public void setCreatedDate(Date createdDate) {
+        this.createddate = createdDate;
     }
 
     @Override
@@ -30,8 +27,26 @@ public class Blog {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
+                ", createdDate=" + createddate +
                 '}';
     }
+
+    public Blog() {
+    }
+
+    public Blog(String title, String content, Date createdDate) {//
+        this.title = title;
+        this.content = content;
+        this.createddate = createdDate;
+    }
+
+    public Blog(int id, String title, String content) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+    }
+
+
 
     public int getId() {
         return id;

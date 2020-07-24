@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
@@ -36,12 +37,13 @@ public class BlogController {
 
 
     @PostMapping("/blog")
-    public Blog create( @RequestBody Blog body)
-    {
+    public Blog create( @RequestBody Blog body) throws InterruptedException {
+
+        TimeUnit.SECONDS.sleep(2);
         //String title = body.get("title");
         //String content = body.get("content");
-
-        Blog blog = new Blog(body.getTitle(),body.getContent());
+        Date today= new Date();
+        Blog blog = new Blog(body.getTitle(),body.getContent(), today);
 
         return blogRepository.save(blog);
     }
@@ -52,7 +54,7 @@ public class BlogController {
         Optional<Blog> blog = blogRepository.findById(id);
         blog.get().setTitle(body.getTitle());
         blog.get().setContent(body.getContent());
-
+        blog.get().setCreatedDate(new Date());
         return blogRepository.save(blog.get());
     }
 
