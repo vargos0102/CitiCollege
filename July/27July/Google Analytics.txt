@@ -1,0 +1,37 @@
+Analytics
+- study of the data or fine grain analysis of the collected
+
+Why do you even need analytics?
+- To make decisions (marketing/sales)
+
+Different analytics tools.
+- Google analytics/ Matomo/ Woopra/ Fox Metrics/ Leadfeeder
+
+What kind of decisions and how does that work?
+- washing machines/ 18-55/ 50M50F/Toronto-90/Vancouver-10/1
+
+How do you have collection of Data?
+- Google analytics integrated on your website.
+- Gernarte some kind of drill-down reports.
+- Business stand point analytics is important.
+
+Not everyone is going to need it.
+- Web presence
+- selling 
+- only for businesses who have higher turnover/who can invest to expand even more.
+- 100/5-10 need google analytics
+
+How does analytics work?
+- Code(Language: JavaScript)
+- JavaScript - All browsers/ can run on any OS
+- mywashingsolutions.com ->Samsung -> button click event -> fire a code which will 
+  capture all your browser details and send it back to server/database
+- Windows 10/ Chrome/ Canada/Ontario/Mississauga
+- 200/Miss 50/Toronto
+
+Conversions?
+
+https://developers.google.com/analytics/devguides/collection/analyticsjs
+
+IP+OS
+One session
