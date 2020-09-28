@@ -1,0 +1,48 @@
+What is SEO?
+- Search Engine Optimization
+- Things you do to make your website more searchable
+
+
+Search Engine (Google, Bing, DuckDuckGo)
+- Search engine crawls the website data and index.
+- Keywords (serach engine texts)
+https://duckduckgo.com/?q=work+table&t=hk&page=1&adx=prdsdc&sexp=%7B%22v7exp%22%3A%22a%22%2C%22sltexp%22%3A%22b%22%2C%22prodexp%22%3A%22b%22%2C%22prdsdexp%22%3A%22c%22%2C%22wiadrk%22%3A%22b%22%7D&ia=web&iai=r1-2
+
+- Work Table (searches the keyword in Bing search engine database)
+view-source:https://www.lowes.com/pl/Work-benches-Work-benches-tool-stands-Tool-storage-work-benches-Tools/4294857655
+
+How does it work on the website?
+- HTML tags 
+
+1. <Title>
+2. <head>
+	<meta></meta>
+   </head>
+3. <header>
+4. <img src="abc.jpg">. <img src="abc.jpg" alt="work bench">
+5. Open graph tags: they help in boosting search and display abilitie for social media.
+<meta property="og:title" content="Work Benches at Lowes.com"/>
+6. <meta name="robots" content="follow"/>
+7.<link href="https://www.lowes.com/pl/Work-benches-Work-benches-tool-stands-Tool-storage-work-benches-Tools/4294857655?offset=36" rel="next"/>
+
+
+
+off-page SEO is improving meta tags, images and content
+
+white hat seo is set of ethical techniques, guidelines and best practices to follow
+
+SERP - Search Engine Results Page
+
+Video or multimedia: this will not be indexed by the search engine.
+
+It is always advisable to put as many keywords as possible or description 
+
+Sitewide links : it is a link which appears on most of your pages
+For example: footer or your sidebar link
+
+Why not to use Sitewide Links 
+- When you create sitewide links GoogleBot is going to see the link on almost every page of the website. One or two site-wide links won't raise any suspicion but if you're going to abuse this feature, most likely Google will place it under the unnatural links category.
+
+There are often times when you link other website from your own website.
+- not a good practice from SEO standpoint
+

@@ -1,0 +1,151 @@
+Operating Systems:
+
+DOS 
+Windows is an operating system
+OSX is in macbooks or apple computers
+Linux which is also an operating system
+ChromeBook which is by Google is also an OS(Operating System)
+
+
+OS: 
+It is an application which sits on top of the computer hardware 
+to facilitate the regular operations of computer
+
+Why do we need OS?
+OS is needed to move the mouse.
+OS is needed to type
+Creating files/ folders
+Deleting of files/folders
+OS is the one which turns on/off your laptop/computer camera
+OS comes with basic softares as calulator/calendar
+internet explorer for browsing web
+It controls the speaker/ mic
+How to connect with Wifi
+installing softwares on top of it
+
+
+All the above functionality is bundled into one Operating System
+is sold by companies like Microsft(Windows)/ Apple (OSX)/ RedHat (Linux)/ Google (Chromebook)
+
+How do you decide which OS is best for you? (Below is a gneric assumption)
+- Personal or home use Windows works out best as it is easy to understand & operate
+Also it is most widely used Operating System.
+It is not a free OS and most of the times laptops comes with preinstalled versions of Windows
+
+- If you are in creative field OSX or apple computers are best to work with.
+prices are usually integrates with the cost of apple products
+
+- Most of the application servers run on Linux because they are fast and more reliable
+It is open source(free) and not so user friendly
+
+- Chromebook is cheaper alternative to windows software for home & personal use
+it is free software comes with chromebooks manufactured by Google
+
+Process:
+Process is a program in execution.
+When a program loaded into memory it becomes a process
+
+Memory:
+It is typically divided into 4 parts.
+Stack, Heap, Text & Data
+
+Stack: The process Stack contains temporary data such as 
+method/function parameters, return address and local variables
+
+Heap: This is dynamically allocated memeory to a process during its 
+runtime
+
+Text: This includes the current activity represented by the value of
+Program counter and the contents of the processors registers
+
+Data: This section contains the global and static variables
+
+Example:
+
+int main()
+{
+	printf("Hello World");
+	return 0;
+}
+
+Process Lifecycle:
+
+Start, Ready, Running, Waiting, Terminated/Exit
+
+OS needs to keep track of different processes.
+It is done with the help of few parameters such as 
+Process State, Process ID, Program Counter, Memory Management information
+Accounting information, IO status information
+
+What is a thread?
+A thread is a flow of execution through the code.
+
+Types of threads:
+1. User Level Threads
+- User managed thread
+
+2. Kernel Level Threads
+- Operating system managed threads acting on kernel, 
+an operating system core
+
+What is Multithreading?
+Running different threads in parallel.
+
+
+Question:
+
+What is operating system?
+a. collection of programs that manages hardware resources
+b. system service provider to the application programs
+c. link to interface the hardware and application programs
+d. all of the above
+
+Services
+What are services?
+- An OS provides services to both the users and to the program
+
+What are the services provided by these?
+- It provides programs an environment to execute
+- It provides users the services to execute the program in 
+a convenient manner
+
+Following are a few common services provided by an operating system.
+
+- Program execution: Printer spooler, file servers.
+Loads program into memmory, execute them, handles program execution, 
+synchronization, communication
+ 
+- Input/Output operations: Copy files onto external HDD/pen drive.
+I/O operaion means read or write operation with any file or any specific
+I/O device.
+OS provides the access to the required I/O devices when required.
+
+- File system manipulation: devices like CD/DVD.
+Program needs to read a file or write a file
+OS also gives permission to the file to perform the operation
+
+- Communication
+Two process often require data to be tansferred between them
+Both the processes can be on one computer or on different computers but are connected through
+a computer network
+
+- Error Detection
+The OS constantly checks for possible errors
+OS takes an appropriate actions to ensure correct and consistent computing
+
+- Resource Allocation/Management
+OS manages all kinds of resources using schedulers
+CPU scheduling algorithms are used for better utilization of CPU
+
+- Protection
+OS ensures that all access to system resources is controlled
+OS ensures that external I/O devices are protected from invalid access attempts
+OS provides authentication features for each user by means of password
+ 
+
+
+
+
+
+
+

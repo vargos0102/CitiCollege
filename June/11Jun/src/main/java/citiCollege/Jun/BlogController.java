@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class BlogController {
 
     @Autowired
-    BlogRepository blogRepository;
+    BlogRepository blogRepositor;
 
     @GetMapping("/blog")
     public List<Blog> index()
@@ -37,7 +37,7 @@ public class BlogController {
 
 
     @PostMapping("/blog")
-    public Blog create( @RequestBody Blog body) throws InterruptedException {
+    public Blog (@RequestBody Blog body) throws InterruptedException {
 
         TimeUnit.SECONDS.sleep(2);
         //String title = body.get("title");

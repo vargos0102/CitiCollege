@@ -1,0 +1,48 @@
+Operating Systems:
+
+DOS 
+Windows is an operating system
+OSX is in macbooks or apple computers
+Linux which is also an operating system
+ChromeBook which is by Google is also an OS(Operating System)
+
+
+OS: 
+It is an application which sits on top of the computer hardware 
+to facilitate the regular operations of computer
+
+Why do we need OS?
+OS is needed to move the mouse.
+OS is needed to type
+Creating files/ folders
+Deleting of files/folders
+OS is the one which turns on/off your laptop/computer camera
+OS comes with basic softares as calulator/calendar
+internet explorer for browsing web
+It controls the speaker/ mic
+How to connect with Wifi
+installing softwares on top of it
+
+
+All the above functionality is bundled into one Operating System
+is sold by companies like Microsft(Windows)/ Apple (OSX)/ RedHat (Linux)/ Google (Chromebook)
+
+How do you decide which OS is best for you? (Below is a gneric assumption)
+- Personal or home use Windows works out best as it is easy to understand & operate
+Also it is most widely used Operating System.
+It is not a free OS and most of the times laptops comes with preinstalled versions of Windows
+
+- If you are in creative field OSX or apple computers are best to work with.
+prices are usually integrates with the cost of apple products
+
+- Most of the application servers run on Linux because they are fast and more reliable
+It is open source(free) and not so user friendly
+
+- Chromebook is cheaper alternative to windows software for home & personal use
+it is free software comes with chromebooks manufactured by Google
+
+
+
+
+
+
