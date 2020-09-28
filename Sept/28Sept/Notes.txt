@@ -1,0 +1,24 @@
+Introduction to Web
+
+What is a website? 
+Web page where user can read/ interact and perform
+read/ write operations
+
+Implementation or uses of website.
+- Advertisement/ business/ 
+- Gate to everything(Every business needs web presence) 
+- Information
+
+What all it comprises of?
+Every website comprises of below three languages 
+
+- HTML (Hyper text markup language)
+- CSS (Cascading style sheet)
+- JavaScript 
+
+Why do we need them?
+HTML: is used to define some standard representation on the web.
+CSS: is used to beautify(look and feel) of a website.
+Javascript: is used to run client code in the browser.
+
+
