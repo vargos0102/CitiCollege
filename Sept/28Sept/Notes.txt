@@ -21,4 +21,44 @@ HTML: is used to define some standard representation on the web.
 CSS: is used to beautify(look and feel) of a website.
 Javascript: is used to run client code in the browser.
 
+Static websites?
+- Websites made up of html and css
+- Websites that don't change behavior or reder user specific 
+information falls under static websites
+
+Dynamic websites?
+- Shopping websites
+- Quotes 
+- Banking
+
+Background on Browsers:
+URL(Unified resourse locator) or address: website address
+All browsers convert and render in HTML/CSS/Javascript 
+Opera/Chrome/Safari/Firefox/Internet explorer/ Microsoft Edge
+F12 or right click -> inspect element: It gives you details of the html code used.
+
+
+How does websites gets loaded into web browser?
+Request 
+- citicollege.ca in the address bar -> DNS Server -> 142.118.27.22
+- browser -> DNS -> Application server 
+
+Response
+- Application server -> html files -> browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
