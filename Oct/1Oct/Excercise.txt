@@ -1,0 +1,3 @@
+Create a simple html web page which displays your 
+full details, area of interest and address.
+Something similar to snapshot of resume.
