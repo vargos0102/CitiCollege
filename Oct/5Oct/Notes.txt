@@ -1,0 +1,33 @@
+What is photoshop?
+- Its an adobe tool licensed by adobe for Windows & Mac OS.
+It is a raster graphics editor and a industry standard for editing 
+and is bundled with different imaging softwares.
+
+What photoshop is used for?
+- Photoshop is image changing software. It is widely used for photo editing
+like fixing colors, reducing noise, adding effects, fixing brightness/ contrast.
+
+What are the main features of photoshop?
+- Sharpening (reduce noise & halo effects)
+- upsampling (low to high resolution)
+- Multi layered 
+- rounding rectangles
+- css from layers(used to generate effects for web)
+
+Layering
+-image layering
+
+types:
+1. Adjustment layers
+2. Fill layers
+3. Type layers
+4. Smart object layers
+
+Layers follow top down approach meaning base layer remains as is
+while you topmost layer becomes the newest addition
+
+levels it to adjust the brightness, contrast and tonal range by which specifying
+the location of complete black on histogram.
+
+
+
