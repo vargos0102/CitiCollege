@@ -1,0 +1,15 @@
+What is HTML?
+- HTML is the standard markup language for creating Web pages
+- HTML describes the structure of a Web page
+- HTML consists of a series of elements
+- HTML elements tell the browser how to display the content
+- HTML elements label pieces of content such as "this is a heading","this is a paragraph",
+"this is a link" etc
+
+HTML Elements:
+1. h1 for heading
+2. p for paragraph
+3. a for anchor tag, attributes: href for which website to open, target: same window or new one
+4. img for image, attributes: src for source of image
+5. hr is for horizontal line
+6. br is to break the line
