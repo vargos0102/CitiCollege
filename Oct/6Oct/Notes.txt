@@ -40,5 +40,10 @@ Lightness controls the brightness value.
 It enables you to adjust the colors in your image based on their hue, saturation and
 lightness.
 
+Curvature Pen: to plot a path.
+
+Text: To render text of different size and font on the 
+path and as well as on the image.
+
 
 

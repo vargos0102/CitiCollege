@@ -58,4 +58,11 @@ or Image
 Gradient Overlay effect-> it adds multi color gradient to the 
 entire image.
 
+Crop: its not just used to crop or select a section of an image
+but also for enhancing the size of the image or streching it in 
+potrait or landscape formats
+You have to lock the size or the ratio and check the (Content-Aware)
+checkbox
+
+Merging of 2 images.
 
