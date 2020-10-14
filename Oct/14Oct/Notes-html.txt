@@ -1,0 +1,76 @@
+HTML Elements:
+1. h1 for heading
+2. p for paragraph
+3. a for anchor tag, attributes: href for which website to open, target: same window or new one
+4. img for image, attributes: src for source of image
+5. hr is for horizontal line
+6. br is to break the line
+
+7. table
+tr - table row
+th - table header
+td - table division/column
+
+<table>
+ <tr>
+  <th></th>	
+ </tr>
+ <tr>
+  <td></td>
+ </tr>
+</table>
+
+Company 	Employee
+Google		Alex
+Microsoft	Allen
+Microsoft	Jenny
+
+
+8. Lists
+
+ul - unordered list
+li - list item
+ol - ordered list, attribute: type - a,A,i,I,1
+
+dl - description list
+dt - description term
+dd - description description
+
+Buy flowers
+Water garden
+Cover the trees
+
+9. Italics: For rendering text in italic 
+<i></i>
+
+10. Bold: Bold the letters of text
+
+11. Div: defines a division or a section in HTML document.
+It is often used as a container for HTML elements to be styled together
+
+Attributes:
+
+1. style: style attribute is for styling the html element.
+Properties of style attributes
+
+- background-color
+- font-size
+- color
+- text-align
+- font-weight : how bold the text should be
+- border: size of the border (space) type of lines ex: dotted or solid (space) color of the line
+- margin: sets the margin for an element, margin-top (space) margin-right (space) margin-bottom (space) margin-left
+
+File Paths: describes the location of a file in a web site's folder structure
+./ (colon) means the file is looked up in the current directory(folder)
+../ (colon) means it is going one level up to find the file
+
+Nested html: HTML elements can be nested which means elements can contain other elements 
+
+
+HTML links or Hyperlinks or anchor tag: 
+Its use to jump from one page to another and also it use to go to any other website 
+- Using image a link
+
+HTML Controls:
+Forms
