@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+      .test-margin {
+        margin-left: 35%;
+      }
+      .padd-left {
+        padding-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" style="background-color: rgb(241, 234, 212)">
+      <h3 style="text-align: center">Personal Information form</h3>
+      <label for="fname" class="test-margin">First Name: </label>
+      <input type="text" id="fname" />
+
+      <label for="lname" class="padd-left">Last Name: </label>
+      <input type="text" id="lname" /><br /><br />
+
+      <label class="test-margin">Gender: </label>
+      <label for="male" class="padd-left">Male</label>
+      <input type="radio" id="male" value="male" name="gender" />
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" value="female" name="gender" />
+
+      <label for="other">Other</label>
+      <input type="radio" id="other" value="other" name="gender" /><br /><br />
+
+      <label class="test-margin" class="padd-left"
+        >Are you a Canadian resident?</label
+      >
+
+      <label for="yes" class="padd-left">Yes:</label>
+      <input type="radio" id="yes" value="yes" name="resident" />
+      <label for="no">No:</label>
+      <input type="radio" id="no" value="no" name="resident" /><br /><br />
+
+      <label class="test-margin">Enter Date of birth: </label>
+      <input
+        style="margin-left: 40px"
+        type="date"
+        id="dob"
+        name="dob"
+        max="2020-10-18"
+        min="1900-01-01"
+      /><br /><br />
+
+      <label for="country" class="test-margin">Choose Country: </label>
+      <select id="country" style="margin-left: 40px">
+        <option value="unitedstates">United States</option>
+        <option value="canada">Canada</option></select
+      ><br /><br />
+      <input
+        type="checkbox"
+        id="chkAdult"
+        value="yes"
+        style="margin-left: 35%"
+      />
+      <label for="chkAdult">Are you 18 and above </label><br /><br />
+      <input type="submit" value="Next" style="margin-left: 50%" />
+    </form>
+  </body>
+</html>

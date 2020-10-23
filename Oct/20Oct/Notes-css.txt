@@ -1,0 +1,5 @@
+What is a style?
+It's a common html attribute that's used for styling the html element.
+
+What is CSS?
+Cascading style sheet

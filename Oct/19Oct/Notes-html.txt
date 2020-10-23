@@ -61,6 +61,12 @@ Properties of style attributes
 - border: size of the border (space) type of lines ex: dotted or solid (space) color of the line
 - margin: sets the margin for an element, margin-top (space) margin-right (space) margin-bottom (space) margin-left
 
+2. Html Id: 
+Its used to specify a unique id for an HTML element. You can't have more than one element
+with the same id.
+
+*/attributes end here
+
 File Paths: describes the location of a file in a web site's folder structure
 ./ (colon) means the file is looked up in the current directory(folder)
 ../ (colon) means it is going one level up to find the file
@@ -77,5 +83,37 @@ Its use to jump from one page to another and also it use to go to any other webs
 - link title
 - bookmark
 
-HTML Controls:
-Forms
+
+
+HTML Forms:
+Its simply used to collect the user input. 
+Always this input is sent to server for storing or processing information.
+
+form tag or element is a container for different types of input elements
+form tag is never empty and usually has one input and a button inside it.
+
+label element: to display some text 
+Input element: the type attributes define the input element 
+Common types are : 
+text : something you can write in or type in
+button: something to click on to to notify you are done with
+radio: where you can simply choose only one option
+checkbox: you agree to something or you are done with  
+submit: takes the form data to the server
+date: opens up the calendar, attribute min & max you can specify values for min
+and max date
+
+Sending the data collected via forms to server is called Submit.
+Where to post this data is described in the action attribute
+
+select/option: it gives selection to the user to choose from 
+
+
+
+
+
+
+
+
+
+

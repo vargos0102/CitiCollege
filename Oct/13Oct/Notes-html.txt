@@ -68,14 +68,7 @@ File Paths: describes the location of a file in a web site's folder structure
 Nested html: HTML elements can be nested which means elements can contain other elements 
 
 
-HTML links or Hyperlinks or anchor tag: 
-Its use to jump from one page to another and also it use to go to any other website 
-- Using image a link
-- mailto 
-- tel
-- Button
-- link title
-- bookmark
+HTML links
 
 HTML Controls:
 Forms
