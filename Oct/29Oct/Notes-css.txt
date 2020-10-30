@@ -1,0 +1,91 @@
+What is a style?
+It's a common html attribute that's used for styling the html element.
+
+What is CSS?
+Cascading style sheet
+
+Why do you use CSS?
+Style element can be used for individual html elements but for resusable styles 
+CSS provides a common way to apply styles to multiple html elements
+
+Can you apply multiple css classes to an html element?
+- yes you can apply multiple classes together
+
+Types of CSS selectors:
+- class attribute
+- group selector (you can apply multiple groups with comma seperation)
+- id selector 
+
+CSS Text :
+background-color: black;
+color: pink;
+text-align: center;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 20px;
+word-spacing: 40px;
+
+CSS Icons:
+There are different types of icons. It's mostly an external file which we reference in our code.
+like example: fontawesome 
+There the name of the font is mentioned in the class attribute within the <i> icon html element
+
+CSS Links:
+
+: link - for untouched links
+: visited - links been visted
+: hover - when you take the mouse on it
+: active - when you are actually pressing the button
+
+
+CSS Dropdowns
+are dropdowns purely designed by the using css styles
+
+CSS Display
+display visibility properties to enable or disable some of the html elements
+: none - hiding the element without deleting it
+
+display: 
+none - it will not display at all.
+block - it will show but on a new line
+inline - it will show but in the same line
+
+CSS Tables
+border-bottom - to display border at the bottom
+th - text-align - to left
+td - vertical-align - to bottom
+tr:nth-child(odd) - giving color or any other style to alternating rows
+
+
+CSS Forms
+Improve the look and feel of simple html form.
+input[type=submit] - used html element along with attributes to style the input types
+
+CSS Backgrouds
+rgb - apply color code 
+rgb with opacity - the forth parameter defines the opacity
+background-image - url("image name")
+background-repeat - which property should repeat
+background-position - position of the image that you want to render
+
+Responsive Web Design
+- Responsive means website responding to screen size
+Responsive design makes your web page look good on all devices.
+
+In simple terms the layout adapts itself and changes the content accordingly.
+
+Media Queries
+- It's a technique to identify screen size and apply style accordingly.
+it uses the @media rule to include a block of css properties only if a certain condition is true.
+
+ViewPort:
+user's visible area of the webpage
+<meta>
+width=device-width - sets the the width of the page to follow the screen-width
+initial-scale=1.0 - sets the initial zoom level when the page is first loaded
+
+Bootstrap CSS:
+It's a predefined set of css so that you don't have to write same styles again and again.
+
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+https://hackerthemes.com/bootstrap-cheatsheet/
