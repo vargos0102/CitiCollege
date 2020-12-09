@@ -1,0 +1,19 @@
+Difference between server-side and client side code:
+client side code runs on the browser, example of languages are HTML/CSS/JavaScript.
+server side code runs on the server(high conf machine) and it needs language framework to run it. Example: Java, C#, Python, C, C++, PHP
+
+
+What is web server?
+It handles client requests, with the basic objective of the web server is to store,
+process and deliver web pages to the users.
+Examples: Apache, IIS (Internet Information Services)
+
+Why do we need server side languages?
+- to perform complex operations which is fast and efficient
+- To make complex business logic to sit in between data and front end
+
+
+Why PHP?
+- This is just for simple demo on how database can be connected and accessed through a server-side langauge.
+action="sample1.php" method="get"
+
