@@ -1,0 +1,22 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript String Methods</h2>
+    <p id="p1"></p>
+
+    <button type="button" onclick="myFunc('a,b,c,d,e,f,g,h,j','i,','h')">
+      Click Me
+    </button>
+    <script>
+      function myFunc(sample, missingChar, insertAfter) {
+        var temp = "";
+        temp =
+          sample.slice(0, sample.indexOf(insertAfter) + 2) +
+          missingChar +
+          sample.slice(sample.indexOf(insertAfter) + 2);
+
+        document.getElementById("p1").innerHTML = temp;
+      }
+    </script>
+  </body>
+</html>

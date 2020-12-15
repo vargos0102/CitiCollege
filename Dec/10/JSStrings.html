@@ -1,0 +1,19 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Strings</h2>
+    <p id="p1"></p>
+    <label for="txt1">Comments</label>
+    <input type="text" id="txt1" onkeyup="calculateCount()" />
+
+    <script>
+      function calculateCount() {
+        if (document.getElementById("txt1").value != "") {
+          document.getElementById("p1").innerHTML =
+            "You have characters left: " +
+            (100 - parseInt(document.getElementById("txt1").value.length));
+        }
+      }
+    </script>
+  </body>
+</html>

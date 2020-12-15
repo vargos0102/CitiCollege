@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h2>Javascript Events</h2>
+    <label for="txt1">User Name</label>
+    <input type="text" id="txt1" onchange="dummyFunc()" />
+
+    <p id="p1"></p>
+
+    <script>
+      var letter = ".";
+      function dummyFunc() {
+        document.getElementById("p1").innerHTML = letter += ".";
+        "OnChange event triggered/ fired " + letter;
+      }
+    </script>
+  </body>
+</html>

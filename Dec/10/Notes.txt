@@ -72,7 +72,18 @@ Functions can have any number of parameters as an input.
 Example: function Add() { return 4+6; }
 Example: function Add(num1, num2) { return num1+num2; }
 -----------------------------------------------
-
+Events:
+Something has happened or occured. Gives JS opportunity to react to such events.
+onclick(): example- when a button gets clicked.
+onkeydown(): example- to block user from inputting numbers or special characters.
+onchange(): example- when you change something in the text only then it gets fired.
+onmouseover(): example- when you bring the mouse on html element it increases the font size.
+onmouseout(): example- when you move the mouse out of the html element the font size is reset.
+onload(): This event triggers when an object has been loaded. example- image start to load.
+------------------------------------------------
+String:
+A series of literals(numbers/alphabets/special characters)
+This is a list of products and service's
 
 
 

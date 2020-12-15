@@ -72,10 +72,52 @@ Functions can have any number of parameters as an input.
 Example: function Add() { return 4+6; }
 Example: function Add(num1, num2) { return num1+num2; }
 -----------------------------------------------
+Events:
+Something has happened or occured. Gives JS opportunity to react to such events.
+onclick(): example- when a button gets clicked.
+onkeydown(): example- to block user from inputting numbers or special characters.
+onchange(): example- when you change something in the text only then it gets fired.
+onmouseover(): example- when you bring the mouse on html element it increases the font size.
+onmouseout(): example- when you move the mouse out of the html element the font size is reset.
+onload(): This event triggers when an object has been loaded. example- image start to load.
+------------------------------------------------
+String:
+A series of literals(numbers/alphabets/special characters)
+This is a list of products and service's
+
+String Methods:
+Inbuild methods available on strings. These provide solution to common day to day problems.
+
+indexOf(): returns the index (position) of the first occuerence of a specified text.
+lastIndexOf(): returns the index(position) of the last occurrence of a specified text.
+search(): returns the index(position) of the specified search text.
+
+slice(start, end): extracts a part of a string and returns the extracted part in a new string.
+substring(start, end): extracts a part of a string and returns the extracted part in a new string.
+substr(start, length):  extracts a part of a string and returns the extracted part in a new string. Second parameter is the length starting from sub string start.
+
+replace(): replaces a specified value with another value in a string.
+toUpperCase(): will convert string to upper case.
+toLowerCase(): will convert string to lower case.
+concat(): joins two or more strings together.
 
 
+Question 1: Create a function which would take a string of letters (a,b,d,e,f) and add missing letter 'c' in it.
+- 
 
+function myFunc(sample, missingChar, insertAfter) {
+        var temp = "";
+        temp =
+          sample.slice(0, sample.indexOf(insertAfter) + 2) +
+          missingChar +
+          sample.slice(sample.indexOf(insertAfter) + 2);
 
+        document.getElementById("p1").innerHTML = temp;
+      }
+
+Question 2:
+Create a function which takes a list of names(Tom,Jerry,Martin,Luther) and insert a specific name (Holland) after specified name counts (2).
+ 
 
 
 

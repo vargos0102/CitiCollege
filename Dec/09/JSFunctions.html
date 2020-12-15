@@ -13,11 +13,22 @@
     >
       Add
     </button>
-
+    <button
+      type="button"
+      onclick="Multiply(document.getElementById('txt1').value,
+  document.getElementById('txt2').value)"
+    >
+      Multiply
+    </button>
     <script>
       function Add(num1, num2) {
+        //alert(parseInt(num1) + parseInt(num2));
         document.getElementById("p1").innerText =
           parseInt(num1) + parseInt(num2);
+      }
+      function Multiply(num1, num2) {
+        document.getElementById("p1").innerText =
+          parseInt(num1) * parseInt(num2);
       }
     </script>
   </body>

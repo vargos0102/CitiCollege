@@ -1,0 +1,18 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Events</h2>
+    <img
+      src="https://cdn.pixabay.com/photo/2018/02/08/22/27/flower-3140492_960_720.jpg"
+      width="200"
+      height="150"
+      onload="imageLoaded()"
+    />
+    <p id="p1"></p>
+    <script>
+      function imageLoaded() {
+        document.getElementById("p1").innerHTML = "image loaded..";
+      }
+    </script>
+  </body>
+</html>
