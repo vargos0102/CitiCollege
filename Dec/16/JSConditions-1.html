@@ -1,0 +1,20 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Conditions</h2>
+    <p id="p1"></p>
+    <label>Please enter a number</label><br />
+    <input type="text" id="number" />
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var num = parseInt(document.getElementById("number").value);
+        if (num % 2 == 0) {
+          alert("Even number");
+        } else {
+          alert("Odd number");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript While loop</h2>
+    <p id="p1"></p>
+    <label>Type your 10 digit phone number</label>
+    <input type="text" id="phNo" />
+    <button type="button" onclick="myFunc()">Click Me</button>
+
+    <script>
+      function myFunc() {
+        // var employees = ["Tom", "Alex", "Bret", "Katie"];
+        // var counter = 0;
+        var phoneNumber = document.getElementById("phNo").value;
+        do {
+          alert("Make sure phone length is correct");
+        } while (phoneNumber.length != 10);
+      }
+    </script>
+  </body>
+</html>

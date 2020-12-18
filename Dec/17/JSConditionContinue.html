@@ -1,0 +1,22 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Continue Loop</h2>
+    <p id="p1">Paragraph 1</p>
+    <p id="p2">Paragraph 2</p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+
+    <script>
+      function myFunc() {
+        var cars = ["Volvo", "BMW", "Mazda", "Honda", "Nissan", "Toyota"];
+
+        for (let index = 0; index < cars.length; index++) {
+          if (cars[index] == "Nissan") {
+            continue;
+          }
+          alert("Index value: " + index + " & value is:" + cars[index]);
+        }
+      }
+    </script>
+  </body>
+</html>

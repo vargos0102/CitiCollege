@@ -1,0 +1,23 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript String Methods Example 2</h2>
+    <p id="p1"></p>
+
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var names = "David,Jerry,Martin,Luther";
+        var insertName = "Holland";
+        var temp1,
+          temp2 = "";
+
+        temp1 = names.slice(0, names.indexOf(",", names.indexOf(",") + 1) + 1);
+        temp2 = names.slice(names.indexOf(",", names.indexOf(",") + 1) + 1);
+
+        document.getElementById("p1").innerHTML =
+          temp1 + insertName + "," + temp2;
+      }
+    </script>
+  </body>
+</html>

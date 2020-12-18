@@ -1,0 +1,20 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript FOr loop</h2>
+    <p id="p1"></p>
+
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var cars = ["Volvo", "BMW", "Honda"];
+
+        var str = "";
+        for (index = 0; index < cars.length; index++) {
+          str = str + "My car brand is: " + cars[index] + "<br>";
+        }
+        document.getElementById("p1").innerHTML = str;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Swicth</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var day = new Date().getDay();
+        if (day == 0) {
+          alert("Sunday");
+        } else if (day == 1) {
+          alert("Monday");
+        } else if (day == 2) {
+          alert("Tues");
+        } else if (day == 3) {
+          alert("Wed");
+        } else if (day == 4) {
+          alert("Thur");
+        } else if (day == 5) {
+          alert("Fri");
+        } else {
+          alert("Saturday");
+        }
+      }
+    </script>
+  </body>
+</html>

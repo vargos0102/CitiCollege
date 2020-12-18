@@ -1,0 +1,25 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Swicth</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc('play')">Play</button>
+    <button type="button" onclick="myFunc('pause')">Pause</button>
+    <button type="button" onclick="myFunc('stop')">Stop</button>
+    <script>
+      function myFunc(control) {
+        switch (control) {
+          case "play":
+          case "pause":
+            alert("you pressed play/pause");
+            break;
+          case "stop":
+            alert("you pressed stop");
+            break;
+          default:
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>

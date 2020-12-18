@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <h2>Javascript Switch</h2>
+    <p id="p1"></p>
+    <label>Enter the grade:</label><br />
+    <input type="number" id="grade" />
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        let grade = parseInt(document.getElementById("grade").value);
+        switch (true) {
+          case grade >= 90:
+            alert("A");
+            break;
+          case grade >= 80:
+            alert("B");
+            break;
+          case grade >= 70:
+            alert("C");
+            break;
+          case grade >= 60:
+            alert("D");
+            break;
+          default:
+            alert("F");
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
