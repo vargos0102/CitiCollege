@@ -1,0 +1,16 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Excercise</h2>
+    <input type="text" id="ageInput" />
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        let ageInput = document.getElementById("ageInput").value;
+        ageInput = ageInput * 365;
+        document.getElementById("p1").innerHTML = ageInput;
+      }
+    </script>
+  </body>
+</html>

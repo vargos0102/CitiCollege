@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h2>JS Window Object</h2>
+    <button type="button" onclick="myfunc()">Click Me</button>
+    <p id="output"></p>
+    <script>
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+
+      document.getElementById("output").innerHTML =
+        "Width: " + w + ", Height: " + h + "<br>";
+
+      document.getElementById("output").innerHTML +=
+        "Screen Width: " +
+        window.screen.width +
+        ",Screen Height: " +
+        window.screen.height;
+
+      function myfunc() {
+        //window.close();
+        //window.open("http://www.homedepot.com");
+      }
+    </script>
+  </body>
+</html>

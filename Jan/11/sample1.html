@@ -1,0 +1,40 @@
+<html>
+  <body>
+    <form action="sample1.php" method="GET">
+      <label>Name: </label>
+      <input
+        type=""
+        name="n"
+        id="n"
+        onkeydown="captureCharacter(event)"
+      /><br />
+      <label>Email: </label>
+      <input type="email" name="e" /><br />
+      <button type="submit" onclick="validateForm()">Click Me</button>
+    </form>
+    <button type="button" onclick="createCookie()">Create Cookie</button>
+    <button type="button" onclick="readCookie()">Read Cookie</button>
+    <script>
+      function validateForm() {
+        let nameInput = document.getElementById("n").value;
+        if (nameInput.length <= 3) {
+          alert("Name needs to be more than 3 characters long ");
+        }
+        console.log(nameInput);
+      }
+
+      function captureCharacter(e) {
+        if (e.keyCode >= 49 && e.keyCode <= 56) {
+          e.preventDefault();
+        }
+      }
+      function createCookie() {
+        document.cookie = "username=JohnTravolta";
+      }
+      function readCookie() {
+        var ex = document.cookie;
+        alert(ex);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h2>JS Popup Boxes</h2>
+    <button type="button" onclick="myfunc()">Click Me</button>
+
+    <p id="output"></p>
+    <script>
+      //window.alert("Hello!! \nThis \nis \na \nmessage \nfrom \nweb \npage");
+
+      var output;
+      if (window.confirm("Are you sure?")) {
+        output = "You clicked Ok";
+      } else {
+        output = "You clicked Cancel";
+      }
+
+      document.getElementById("output").innerHTML = output;
+    </script>
+  </body>
+</html>

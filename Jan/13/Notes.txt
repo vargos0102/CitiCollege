@@ -1,0 +1,398 @@
+Basic:
+Your browser (IE/Edge/Chrome/Safari) understand only 3 things.
+HTML/CSS/Javascript.
+
+
+Javascript
+
+What is Javscript?
+- Javascript allows you to make web pages more interactive.
+It's a programming language used for both client and server side programms.
+It's currently one of the most popular languages. Mostly its used for client side rendering of
+web pages.
+
+
+Why do we need Javascript?
+- Its needed to by Web browsers to create a dynamic and interactive expereince for the user.
+
+HTML DOM (Document Object Model)
+
+                          HTML
+Head					Body
+			h2		button 					p
+		(Text:'Intro Page')  (Text:'Check D&T', Attr: 'onclick')      (Attr: 'id')
+
+
+Difference between Java and Javascript?
+- completely unrelated languages.
+- same as C & C#
+
+document.getElementbyId('')
+
+Where the JavaScript is written?
+- within the <script> </script>
+
+Function: a set of statements that performs a task or perform any calculation.
+Syntax: function funcName() { .. statements.. }
+Call: funcName()
+
+Output:
+window.alert('') - to display or give a popup kind of a message on the browser.
+window.print() - this just prints the html which you can see on the page.
+console.log - which writes the values on the console which can be seen in developer tools (F12)
+--------------------------------------------------------------------------
+Syntax:
+Javascript Keywords: reserved keywords that means something to Javascript.
+example: var 
+JavaScript is case sensitive, example: firstName and FirstName.
+
+JavaScript Variables: Variables are placeholders for value.
+Example: var firstName = "John", var lastName ="Doe", var num1 = 76
+--------------------------------------------
+Javascript Operator: 
+Arthimetic
++, -, *, /, % (Modulus), ++ (Increment), -- (decrement), =, += (assignment), **(exponentiation)
+
+Coparision Operator:
+> (greater than), < (less than), == (equal to), != (not equal), >= (greater than or eqaul to),
+<= (less than or equal to)
+---------------------------------------------
+Data Types:
+String - letters and numbers in double quotes. Example: "John", "$76.5", "Hello! 123".
+number - numbers with or without decimals without quotes. Example: 76, 76.59
+boolean - true or false. 
+undefined - variable without a value/ value has not been defined.
+null - empty/ nothing.
+object - object contains one or more properties seperated by commas.
+----------------------------------------------
+Functions:
+A JS function is a block or series of statements meant to do a particular task.
+'return' is used to return the computed value from a function.
+Functions can have any number of parameters as an input.
+Example: function Add() { return 4+6; }
+Example: function Add(num1, num2) { return num1+num2; }
+-----------------------------------------------
+Events:
+Something has happened or occured. Gives JS opportunity to react to such events.
+onclick(): example- when a button gets clicked.
+onkeydown(): example- to block user from inputting numbers or special characters.
+onchange(): example- when you change something in the text only then it gets fired.
+onmouseover(): example- when you bring the mouse on html element it increases the font size.
+onmouseout(): example- when you move the mouse out of the html element the font size is reset.
+onload(): This event triggers when an object has been loaded. example- image start to load.
+------------------------------------------------
+String:
+A series of literals(numbers/alphabets/special characters)
+This is a list of products and service's
+
+String Methods:
+Inbuild methods available on strings. These provide solution to common day to day problems.
+
+indexOf(): returns the index (position) of the first occuerence of a specified text.
+lastIndexOf(): returns the index(position) of the last occurrence of a specified text.
+search(): returns the index(position) of the specified search text.
+
+slice(start, end): extracts a part of a string and returns the extracted part in a new string.
+substring(start, end): extracts a part of a string and returns the extracted part in a new string.
+substr(start, length):  extracts a part of a string and returns the extracted part in a new string. Second parameter is the length starting from sub string start.
+
+replace(): replaces a specified value with another value in a string.
+toUpperCase(): will convert string to upper case.
+toLowerCase(): will convert string to lower case.
+concat(): joins two or more strings together.
+
+
+Question 1: Create a function which would take a string of letters (a,b,d,e,f) and add missing letter 'c' in it.
+- 
+
+function myFunc(sample, missingChar, insertAfter) {
+        var temp = "";
+        temp =
+          sample.slice(0, sample.indexOf(insertAfter) + 2) +
+          missingChar +
+          sample.slice(sample.indexOf(insertAfter) + 2);
+
+        document.getElementById("p1").innerHTML = temp;
+      }
+
+Question 2:
+Create a function which takes a list of names(Tom,Jerry,Martin,Luther) and insert a specific name (Holland) after specified name counts (2).
+  function myFunc() {
+        var names = "David,Jerry,Martin,Luther";
+        var insertName = "Holland";
+        var temp1,
+          temp2 = "";
+
+        temp1 = names.slice(0, names.indexOf(",", names.indexOf(",") + 1) + 1);
+        temp2 = names.slice(names.indexOf(",", names.indexOf(",") + 1) + 1);
+
+        document.getElementById("p1").innerHTML =
+          temp1 + insertName + "," + temp2;
+      }
+
+-----------------------------------------------------
+JS Arrays
+JavaScript Arrays are used to store multiple values in a single variable.
+
+Methods: 
+ splice(): takes 3 arguments(parameters). 
+position- where the elements should be added.
+elements to remove - number of how many elements to remove.
+any new elements needs to be added.
+ push(): to insert element in the end.
+ pop(): to remove the last element from the array.
+ length: calculates how many items are there in an array.
+ sort(): rearranges the array in alphabatical order.
+-------------------------------------------------------
+Loops: To run same code again and again, with different values.
+
+For Loop: for (index = 0; index< array.length; index++) { ..your code here }
+while loop: while(index<array.length){ ..your code  index++; }
+do while: do { ..your code here } while (index<array.length)
+ 
+When to use For loop: When you have an exact count or number to check the condition (meaning you know you want to run the loop 5 times)
+When to use While loop: When you know your condition but don't know exact count that's when to use while loop.
+When to use Do while loop: Same as while. But when your code needs to be executed atleast once.
+
+--------------------------------------------------------
+
+JS Conditions or Conditional Statement:
+if(condition) { } else { }
+Nested conditions
+if(condition) { } else if (condition) { } else { }
+
+Switch Statements:
+It evaluates the value or condition and execute exactly the case which matches.
+if no case is matched, it executes the default block.
+
+break keyword: it breaks out the switch block.
+----------------------------------------------------------
+
+break in a loop: break statement breaks the loop and continues executing the code after the loop(if any).
+continue in a loop: skips the current iteration and continues with the next iteration.
+
+----------------------------------------------------------
+
+Objects contain many values of different data type coming together to form a meaning object.
+These values are referred as properties of an object. Having key(property name) and value(property value) pair.
+
+Methods: Are actions that can be performed by the objects. 
+These are similar to the functions but can only be accessed via objects.
+
+Excercise: Create an array of objects with fullname as the object method and display result using the for loop.
+ function myFunc() {
+        var people = [
+          {
+            firstName: "John",
+            lastName: "Travolta",
+            age: 40,
+            city: "Toronto",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Huigh",
+            lastName: "jackman",
+            age: 42,
+            city: "Mississauga",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Nick",
+            lastName: "Cage",
+            age: 36,
+            city: "York",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Tom",
+            lastName: "Hardy",
+            age: 38,
+            city: "Brampton",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "George",
+            lastName: "Cloney",
+            age: 54,
+            city: "Vaughan",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+        ];
+
+        var output = "";
+
+        for (let index = 0; index < people.length; index++) {
+          output +=
+            " Person Name: " +
+            people[index].fullName() +
+            ", Age: " +
+            people[index].age +
+            ", City: " +
+            people[index].city +
+            "<br>";
+        }
+
+        document.getElementById("p1").innerHTML = output;
+      }
+---------------------------------------------------------------------------------------------------------------------
+JS Dates
+- new Date() will create a date object. The reason its an object is bcoz it comes with inbuilt methods.
+- new Date("12/24/1991") second most common way to initialize the date object.
+
+Commonly used methods on Date objects are:
+.toUTCString()
+.toISOString()
+.getDate()
+.getMonth()
+.getFullYear()
+
+Get & Set Methods: Get will give us specific date methods and set will set the specific parts of the dates.
+Below is the list that can be used for both get & set.
+
+getFullYear 2021
+getMonth 0
+getDate 5
+getHours 20
+getMinutes 18
+getSeconds 38
+getMilliseconds 136
+getTime 1609895918136
+getDay 2
+Date.now 1609895918136
+-------------------------------------------------------------------------------------------------------------------
+Javascript let:
+Global Scope and Function scope
+
+What is a Global Scope?
+- Varibales declared Globally (outside any function) have Global Scope.
+
+What is a Function Scope?
+- Variables declared Locally (inside a function) have Function Scope.
+
+What does block means?
+- { } this is defined as a block.
+
+What is a Block Scope? (introduced with ES2015)
+- Variables declared inside a block {} cannot be accessed from outside the block.
+
+Advantages of using let keyword for declaring varibales as compared to var keyword.
+1. It automatically manages the scope.(Block scope)
+2. It restriscts redeclaring the of the same variable name in the same scope.
+3. using a let variable before it is declared will result in a ReferenceError.
+
+-----------------------------------------------------------------------------------------------------------------
+Javascript const:
+variables defined with const keyword cannot be reassigned.
+
+Behavior: They behave exactly the same way in terms of block scope as a let variable.
+
+-----------------------------------------------------------------------------------------------------------------
+1. Write a program which will take the age and convert it to number of days. (You can exclude the leap year)
+-   function myFunc() {
+        let ageInput = document.getElementById("ageInput").value;
+        ageInput = ageInput * 365;
+        document.getElementById("p1").innerHTML = ageInput;
+      }
+
+2. Find the minimum age from an array of ages.
+-  function myFunc() {
+        let ages = [89, 76, 24, 10, 42, 52, 17];
+        ages.sort();
+        console.log(ages);
+        //[10,17,24,42,52,76,89]
+        document.getElementById("p1").innerHTML = ages[ages.length - 1];
+      }
+
+3. Write a function to tell wether the given year is a leap year or not.
+-  function myFunc() {
+        let year = document.getElementById("yearInput").value;
+        let output = "";
+        if (year % 4 == 0) {
+          output = "It's a leap year";
+        } else {
+          output = "It's a NOT a leap year";
+        }
+        document.getElementById("p1").innerHTML = output;
+      }
+
+4. Write a function to add up the numbers from a single number.
+- 4 - 1+2+3+4 = 10.
+- 5 - 1+2+3+4+5 = 15.
+- 9 - 1+2+3+4+5+6+7+8+9 = 45 
+
+ function myFunc() {
+        let num = document.getElementById("numberInput").value;
+        let total = 0;
+        for (let index = 1; index <= parseInt(num); index++) {
+          total = total + index;
+          //total += index;
+        }
+        document.getElementById("p1").innerHTML = total;
+      }
+-------------------------------------------------------------------------------------------------------------------
+JS Math Object:
+Javascript Math Object allows to perform mathematical tasks on numbers.
+
+1. Math.PI : Gives the value of pi which is 3.141592653689793
+2. Math.round(x): rounds the value to the nearest integer of x.
+3. Math.pow(x,y): return the value of x to the power of y.
+4. Math.sqrt(x): returns the square root of x.
+5. Math.abs(x): returns the absolute(positive) value of x.
+6. Math.ceil(x): retruns the value of x rounded up its nearest integer.
+(always the next integer as compared to round) 
+7. Math.floor(x):returns the value of x rounded down to its nearest integer.
+(ceil will put you to the next integer and floor will keep you on the same interger)
+8. Math.min() or Math.max(): can be used to find the lowest or highedst value in a list of arguments.
+9. Math.random(): returns a random number.
+
+--------------------------------------------------------------------------------------------------------------------
+Validating Forms with Javascript
+- On click of a button, a javascript function is called to validate the input based upon the business logic.
+- Javscript can not only modify the HTML content but can also dynamically change the css class applied on an HTML element.
+
+Forms API
+- Validity property of an input element contains number of properties related to the validity of data. Like checkValidity(), rangeOverflow, rangeUnderflow
+
+-----------------------------------------------------------------------------------------------
+Browser Object Model (BOM)
+- This basically allows JS to talk to the browser.
+
+Window
+- It represents browser window. This object has inbuilt properties and methods.
+For example: window.open(), window.close(), window.innerHeight, window.innerWidth, window.screen.width & window.screen.height.
+
+Location
+- Location object can be used to get the current page address(URL) and to redirect browser to a new page.
+Example: window.location.href, window.location.hostname, window.location.assign()
+
+History
+- Example: history.back(), history.forward()
+
+Navigator
+It gives the information about the visitor's(user) browser.
+- Example: navigator.appName, navigator.platform, navigator.appVersion, navigator.language, navigator.javaEnabled()
+
+PopupBoxes
+Example: window.alert(), window.confirm(), window.prompt()
+
+Timing Events
+window.setTimeout(function, milliseconds): This executes a function after waiting for specified milliseconds.
+window.setInterval(function, milliseconds): This executes the function after every specified milliseconds.
+
+Cookies
+
+
+
+
+
+

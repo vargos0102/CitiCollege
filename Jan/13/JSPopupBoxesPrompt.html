@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <h2>JS Popup Boxes</h2>
+    <button type="button" onclick="myfunc()">Click Me</button>
+
+    <p id="output"></p>
+    <script>
+      function myfunc() {
+        //     var number = -99;
+        //     if (number > 0 || number < 90) {
+        //       alert("the condition is true");
+        //     } else {
+        //       alert("The condition is false");
+        //     }
+        //   }
+        var output;
+        var person = window.prompt("Please enter your name:", "John Doe");
+        if (person == null || person == "") {
+          output = "User didn't enter a name";
+        } else {
+          output = "Welcome " + person + "! to the home page";
+        }
+        document.getElementById("output").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

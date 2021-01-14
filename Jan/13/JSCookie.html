@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <h2>JS Cookies</h2>
+
+    <button type="button" onclick="createCookie()">Create Cookie</button>
+    <button type="button" onclick="readCookie()">Read Cookie</button>
+    <button type="button" onclick="deleteCookie()">Delete Cookie</button>
+    <p id="output"></p>
+    <script>
+      function createCookie() {
+        document.cookie =
+          "username=JohnTravolta; expires= Thu, 14 Jan 2021 13:00:00 UTC";
+      }
+      function readCookie() {
+        var ex = document.cookie;
+        alert(ex);
+      }
+      function deleteCookie() {
+        document.cookie = "username=; expires= Thu, 14 Jan 2020 13:00:00 UTC";
+      }
+    </script>
+  </body>
+</html>

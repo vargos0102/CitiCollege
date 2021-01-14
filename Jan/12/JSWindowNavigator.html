@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h2>JS Window Navigator</h2>
+    <button type="button" onclick="myfunc()">Click Me</button>
+
+    <p id="output"></p>
+    <script>
+      document.getElementById("output").innerHTML =
+        "Cookies Enabled: " +
+        navigator.cookieEnabled +
+        ", Appversion:" +
+        navigator.appVersion +
+        ", Platform: " +
+        navigator.platform +
+        ", Language: " +
+        navigator.language +
+        ", Online: " +
+        navigator.onLine +
+        ", Java Enabled: " +
+        navigator.javaEnabled();
+
+      function myfunc() {}
+    </script>
+  </body>
+</html>

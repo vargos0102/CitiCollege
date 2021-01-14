@@ -1,0 +1,25 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Excercise 4</h2>
+    <h6>Write a function to add up the numbers from a single number.</h6>
+    <p>Example: - 4 - 1+2+3+4 = 10.</p>
+    <p>- 5 - 1+2+3+4+5 = 15.</p>
+    <p>- 9 - 1+2+3+4+5+6+7+8+9 = 45</p>
+    <p id="p1"></p>
+    <input type="text" id="numberInput" />
+
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        let num = document.getElementById("numberInput").value;
+        let total = 0;
+        for (let index = 1; index <= parseInt(num); index++) {
+          total = total + index;
+          //total += index;
+        }
+        document.getElementById("p1").innerHTML = total;
+      }
+    </script>
+  </body>
+</html>

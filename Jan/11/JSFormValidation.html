@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <h2>JS form validation</h2>
+    <p>Please enter a number between 1 to 10</p>
+    <input id="numb" />
+    <button type="submit" onclick="validate()">Click Me</button>
+    <p id="output"></p>
+    <style>
+      .invalid {
+        border: 2px solid red;
+      }
+    </style>
+    <script>
+      function validate() {
+        let num = document.getElementById("numb").value;
+        var element = document.getElementById("numb");
+
+        if (parseInt(num)) {
+          if (num > 10 || num < 1) {
+            output = "Invalid Input";
+            element.classList.add("invalid");
+          } else {
+            output = "Valid Input";
+            element.classList.remove("invalid");
+          }
+        } else {
+          output = "the entry is not a number";
+          element.classList.add("invalid");
+        }
+
+        document.getElementById("output").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

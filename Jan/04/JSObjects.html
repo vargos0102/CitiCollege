@@ -1,0 +1,38 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Objects</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var people = [
+          { firstName: "John", lastName: "Travolta", age: 40, city: "Toronto" },
+          {
+            firstName: "Huigh",
+            lastName: "jackman",
+            age: 42,
+            city: "Mississauga",
+          },
+          { firstName: "Nick", lastName: "Cage", age: 36, city: "York" },
+          { firstName: "Tom", lastName: "Hardy", age: 38, city: "Brampton" },
+          { firstName: "George", lastName: "Cloney", age: 54, city: "Vaughan" },
+        ];
+
+        var output = "";
+        for (let index = 0; index < people.length; index++) {
+          output +=
+            " Person Name: " +
+            people[index].firstName +
+            ", Age: " +
+            people[index].age +
+            ", City: " +
+            people[index].city +
+            "<br>";
+        }
+
+        document.getElementById("p1").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

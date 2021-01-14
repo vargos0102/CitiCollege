@@ -1,0 +1,17 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Const</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        const index = 99;
+        {
+          const index = 88;
+        }
+        document.getElementById("p1").innerHTML = index;
+      }
+    </script>
+  </body>
+</html>

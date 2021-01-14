@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <h2>JS form validation API</h2>
+    <p>Max number should not be greater than 100</p>
+    <input id="numb" type="number" max="100" min="10" />
+    <button type="submit" onclick="validate()">Click Me</button>
+    <p id="output"></p>
+
+    <script>
+      function validate() {
+        var num = document.getElementById("numb");
+        let txt = "";
+        if (num.validity.rangeOverflow) {
+          txt = "value exceeds limit";
+        } else if (num.validity.rangeUnderflow) {
+          txt = "value too less";
+        }
+        document.getElementById("output").innerHTML = txt;
+      }
+    </script>
+  </body>
+</html>

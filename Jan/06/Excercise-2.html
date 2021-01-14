@@ -1,0 +1,18 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Excercise</h2>
+    <h6>Find the minimum age from an array of ages.</h6>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        let ages = [89, 76, 24, 10, 42, 52, 17];
+        ages.sort();
+        console.log(ages);
+        //[10,17,24,42,52,76,89]
+        document.getElementById("p1").innerHTML = ages[ages.length - 1];
+      }
+    </script>
+  </body>
+</html>

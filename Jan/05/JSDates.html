@@ -1,0 +1,21 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Date object</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        const monthNames = ["January", "Feb", "March", "April"];
+        var d = new Date();
+        var d1 = new Date(1990, 11, 25);
+        var d2 = new Date("December 25, 1990 13:14:56");
+        var d3 = new Date("12/24/1991");
+        var d4 = new Date(50000000000081);
+
+        document.getElementById("p1").innerHTML =
+          d.getDate() + " " + monthNames[d.getMonth()] + " " + d.getFullYear();
+      }
+    </script>
+  </body>
+</html>

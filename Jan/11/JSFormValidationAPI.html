@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h2>JS form validation API</h2>
+    <p>Please enter a number between 100 to 300</p>
+    <input id="numb" type="number" min="100" max="300" required />
+    <button type="submit" onclick="validate()">Click Me</button>
+    <p id="output"></p>
+
+    <script>
+      function validate() {
+        var num = document.getElementById("numb");
+        if (num.checkValidity() == false) {
+          document.getElementById("output").innerHTML = num.validationMessage;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Object Methods</h2>
+    <p id="p1"></p>
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        var people = [
+          {
+            firstName: "John",
+            lastName: "Travolta",
+            age: 40,
+            city: "Toronto",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Huigh",
+            lastName: "jackman",
+            age: 42,
+            city: "Mississauga",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Nick",
+            lastName: "Cage",
+            age: 36,
+            city: "York",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "Tom",
+            lastName: "Hardy",
+            age: 38,
+            city: "Brampton",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+          {
+            firstName: "George",
+            lastName: "Cloney",
+            age: 54,
+            city: "Vaughan",
+            fullName: function () {
+              return this.firstName + " " + this.lastName;
+            },
+          },
+        ];
+
+        var output = "";
+
+        for (let index = 0; index < people.length; index++) {
+          output +=
+            " Person Name: " +
+            people[index].fullName() +
+            ", Age: " +
+            people[index].age +
+            ", City: " +
+            people[index].city +
+            "<br>";
+        }
+
+        document.getElementById("p1").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>

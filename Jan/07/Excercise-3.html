@@ -1,0 +1,25 @@
+<html>
+  <style></style>
+  <body>
+    <h2>Javascript Excercise 3</h2>
+    <h6>
+      Write a function to tell wether the given year is a leap year or not.
+    </h6>
+    <p id="p1"></p>
+    <input type="text" id="yearInput" />
+
+    <button type="button" onclick="myFunc()">Click Me</button>
+    <script>
+      function myFunc() {
+        let year = document.getElementById("yearInput").value;
+        let output = "";
+        if (year % 4 == 0) {
+          output = "It's a leap year";
+        } else {
+          output = "It's a NOT a leap year";
+        }
+        document.getElementById("p1").innerHTML = output;
+      }
+    </script>
+  </body>
+</html>
