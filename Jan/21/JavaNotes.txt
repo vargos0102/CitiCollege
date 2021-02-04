@@ -1,0 +1,73 @@
+Server side programming languages
+- Java
+- C#
+- Python  
+- Nodejs
+
+Reasons to choose Java
+- works on all operating system (Windows, Linux, Mac)
+- Open-source and free(conditional)
+- popular & community support
+- secure, fast and powerful
+
+What is Intellij ?
+It's a powerful IDE (integrated development environment).
+
+What does it do?
+It provides basic template and structure to code, so that you don't have to remember syntax.
+It helps you with suggestion in syntax and makes compilation and running of programs easy.
+
+What is JVM (Java Virtual Machine)?
+JVM has main responsibility of converting your coded to bytes and allocate memory and generate intermediate code.
+
+
+Build/ Compilation/Compiling your project
+- It is checking for errors.
+
+Run
+- it is executing your program/ code.
+
+Obejct Oriented Programming language.(Examples Java, C#, Python)
+- Languages which follow certain principles comes under object oriented programming language.
+1. Polymorphism
+2. Abstraction
+3. Encapsulation
+4. Inheritance
+
+- Something that can be described as an objects.
+
+What is Main class & Main function?
+- Starting point of code.
+
+What is a Variable ?
+Variable is a value given which will be used in the program.
+Its containers for storing data values.
+
+Data Types
+- String : holds the letters, numbers and characters
+- int (Integer): only whole numbers like 42,22,8899889.
+- boolean: true or false values.
+- char (Character): only a single value like letter, number or special character in single quotes. Example: 'A','F','!','5'
+- float: holds the decimal value upto 7 digits. Example: 23.44f, 777.1234f
+- double: holds the decimal value upto 15 digits. Example: 123.1234, 11.123456
+
+Operators
+
+- +, -, *, /, %, ++, --
+
+String functions 
+
+length() : to find the length of a given string
+concat() : to join one or more strings together
+toLowerCase() : to make all letters lower case
+toUpperCase() : to make all letters upper case
+indexOf : Finds any character or string in a sentence
+substring() : take out part of the string depending upon the index
+
+Math Class
+
+Math.min(): to find the minimum out of the two numbers
+Math.max(): to find the maximum out of the two numbers
+Math.sqrt(): to get the square root of a number
+Math.abs(): absolute turns negative value to positive
+Math.random(): give a random number in decimal less than 1

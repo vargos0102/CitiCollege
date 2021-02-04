@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <h2>JS Excercise 5</h2>
+    <label>Beverages: </label>
+    <select id="selectElem">
+      <option>1</option>
+      <option>2</option></select
+    ><br /><br />
+    <input type="text" id="inputVal" />
+    <button type="button" onclick="addInput()">Add Beverage</button>
+    <p id="output"></p>
+    <script>
+      function addInput() {
+        var inputVal = document.getElementById("inputVal").value;
+        var selectElem = document.getElementById("selectElem");
+        var opt = document.createElement("option");
+        opt.value = inputVal;
+        opt.innerHTML = inputVal;
+        selectElem.appendChild(opt);
+
+        //document.getElementById("output").innerHTML = "";
+      }
+    </script>
+  </body>
+</html>

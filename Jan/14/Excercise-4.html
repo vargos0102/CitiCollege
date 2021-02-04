@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <h2>JS Excercise 4</h2>
+    <p>Question: Convert the values of an array into comma seperated string.</p>
+    <p>For example: ["Toyota", "Nissan", "BMW", "Audi", "Volvo","Honda"]</p>
+    <p>output should be: Toyota, Nissan, BMW, Audi, Volvo</p>
+    <button type="button" onclick="myfunc()">Click Me</button>
+    <p id="output"></p>
+    <script>
+      function myfunc() {
+        var cars = ["Toyota", "Nissan", "BMW", "Audi", "Volvo", "Honda"];
+        if (cars.length % 2 == 0) {
+          var output = cars.splice(0, cars.length / 2);
+        } else {
+          var output = cars.splice(0, cars.length / 2 + 1);
+        }
+
+        document.getElementById("output").innerHTML =
+          "Part 1: " + output + "<br> Part 2: " + cars;
+      }
+    </script>
+  </body>
+</html>

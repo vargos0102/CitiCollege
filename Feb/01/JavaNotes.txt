@@ -1,0 +1,143 @@
+Server side programming languages
+- Java
+- C#
+- Python  
+- Nodejs
+
+Reasons to choose Java
+- works on all operating system (Windows, Linux, Mac)
+- Open-source and free(conditional)
+- popular & community support
+- secure, fast and powerful
+
+What is Intellij ?
+It's a powerful IDE (integrated development environment).
+
+What does it do?
+It provides basic template and structure to code, so that you don't have to remember syntax.
+It helps you with suggestion in syntax and makes compilation and running of programs easy.
+
+What is JVM (Java Virtual Machine)?
+JVM has main responsibility of converting your coded to bytes and allocate memory and generate intermediate code.
+
+
+Build/ Compilation/Compiling your project
+- It is checking for errors.
+
+Run
+- it is executing your program/ code.
+
+Obejct Oriented Programming language.(Examples Java, C#, Python)
+- Languages which follow certain principles comes under object oriented programming language.
+1. Polymorphism
+2. Abstraction
+3. Encapsulation
+4. Inheritance
+
+- Something that can be described as an objects.
+
+What is Main class & Main function?
+- Starting point of code.
+
+What is a Variable ?
+Variable is a value given which will be used in the program.
+Its containers for storing data values.
+
+Data Types
+- String : holds the letters, numbers and characters
+- int (Integer): only whole numbers like 42,22,8899889.
+- boolean: true or false values.
+- char (Character): only a single value like letter, number or special character in single quotes. Example: 'A','F','!','5'
+- float: holds the decimal value upto 7 digits. Example: 23.44f, 777.1234f
+- double: holds the decimal value upto 15 digits. Example: 123.1234, 11.123456
+
+Operators
+
+Arithmetic Operators: - +, -, *, /, %, ++, --
+Comparision Operators: ==, != , > , <, >=, <=
+Logical Operators: || , &&
+
+String functions 
+
+length() : to find the length of a given string
+concat() : to join one or more strings together
+toLowerCase() : to make all letters lower case
+toUpperCase() : to make all letters upper case
+indexOf : Finds any character or string in a sentence
+substring() : take out part of the string depending upon the index
+
+Math Class
+
+Math.min(): to find the minimum out of the two numbers
+Math.max(): to find the maximum out of the two numbers
+Math.sqrt(): to get the square root of a number
+Math.abs(): absolute turns negative value to positive
+Math.random(): give a random number in decimal less than 1
+
+
+Booleans
+value which is either true or false.
+
+If..Else Statement/block
+if(condition) { //execute code } else { // execute code }
+
+if (condition) { } else if (condition) { } else { }
+
+For Loop
+execute a certain code for a number of times.
+for (int i =0; i < 5; i++)
+{
+}
+
+Arrays
+they are used to store multiple values of same data type.
+String[] names = {"Jack","Alter","John"}
+int[] nums = {44,12,254}
+
+
+Methods
+
+Why Method?
+To execute a certain code/ logic from different places inside the code.
+
+What are parameters in the method?
+Parameters is the information you pass to the method.
+You need to mention the datatype that you are passing to the method.
+
+For example: printMessage(String message), add(int x, int y)
+
+What is Return Value from a method?
+static void printMessage(String message){  }
+
+static int add(int x, int y){  return x+y; }
+
+Method Overloading:
+You can create multiple methods with same name provided they have different method signatures.
+
+a. number of parameters are different
+b. the datatype of parameters
+
+Scope:
+You can not youe the same variable name within the same scope (method).
+
+
+What is a Class?
+- Blueprint (it is a structure that provide boudaries for an object.)
+
+What is an Object?
+- It's a reflection of a class and contains data through properties and methods.
+
+What are class methods?
+- the method which are part of the class itself and may use class attributes to perform operations.
+
+
+What is a Constructor?
+Constructor is a method inside a class which has exactly the same name as a class.
+It's use to initialize a default value to class attributes.
+
+
+Access Modifiers
+- public : Makes attributes/class accessible outside class
+- private: Makes attributes/class accessible only within the class
+- protected: the attributes/class is accessible within the same package.
+

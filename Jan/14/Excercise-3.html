@@ -1,6 +1,6 @@
 <html>
   <body>
-    <h2>JS Excercise 1</h2>
+    <h2>JS Excercise 3</h2>
     <p>Question: Convert the values of an array into comma seperated string.</p>
     <p>For example: ["Toyota", "Nissan", "BMW", "Audi", "Volvo"]</p>
     <p>output should be: Toyota, Nissan, BMW, Audi, Volvo</p>
@@ -8,10 +8,13 @@
     <p id="output"></p>
     <script>
       function myfunc() {
-        var cars = ["Toyota", "Nissan", "BMW", "Audi", "Volvo"];
+        var persons = [
+          { name: "John", age: 52 },
+          { name: "Michael", age: 26 },
+        ];
         var output = "";
-        for (let index = 0; index < cars.length; index++) {
-          output += "," + cars[index];
+        for (let index = 0; index < persons.length; index++) {
+          output += persons[index].age + ",";
         }
         document.getElementById("output").innerHTML = output;
       }

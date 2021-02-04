@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h2>JS Excercise 2</h2>
+    <p>Question: Convert the comma seperated string into an array</p>
+    <p>For example: Toyota, Nissan, BMW, Audi, Volvo</p>
+    <p>
+      output should be an array, won't be able to print : ["Toyota", "Nissan",
+      "BMW", "Audi", "Volvo"]
+    </p>
+    <button type="button" onclick="myfunc()">Click Me</button>
+    <p id="output"></p>
+    <script>
+      function myfunc() {
+        var cars = "Toyota | Nissan | BMW | Audi | Volvo";
+        var output = cars.split("|");
+        document.getElementById("output").innerHTML = output[0];
+      }
+    </script>
+  </body>
+</html>
