@@ -1,0 +1,2 @@
+
+ This is a one sample line being written into file..

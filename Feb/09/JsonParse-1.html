@@ -1,0 +1,27 @@
+<html>
+  <p id="p1"></p>
+  <script>
+    // var cityName = "New York";
+    // var obj = { id: 1, name: "Alex" };
+    // var obj1 = JSON.parse( '{ "id": 1, "name": "Alex" }');
+
+    var persons = JSON.parse(
+      '[{"name":"Jack", "age":29, "city": "Toronto", "dob":"1990-12-01"}, {"name":"Peter", "age":31, "city": "Mississauga", "dob":"1980-11-10"}]'
+    );
+    let displayText = "";
+    for (let index = 0; index < persons.length; index++) {
+      var d = new Date(persons[index].dob);
+      displayText +=
+        persons[index].name +
+        " " +
+        persons[index].age +
+        " " +
+        persons[index].city +
+        " " +
+        d.toUTCString() +
+        "<br>";
+    }
+
+    document.getElementById("p1").innerHTML = displayText;
+  </script>
+</html>

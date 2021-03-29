@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <p id="p1"></p>
+  <script>
+    let result = "";
+    $.get("http://localhost:8080/blog", function (data) {
+      console.log(data);
+      result = data;
+
+      let displayText =
+        "<table> <tr> <th>Id </th> <th> Title </th>  <th> Content </th> <th> Modify </th><tr> ";
+      for (let index = 0; index < result.length; index++) {
+        displayText +=
+          "<tr> <td>" +
+          result[index].id +
+          "</td><td> " +
+          result[index].title +
+          "</td><td>" +
+          result[index].content +
+          "</td>" +
+          "<td><input type='button' value='Edit' onClick=\"edit(" +
+          result[index].id +
+          "\,'" +
+          result[index].title +
+          "','" +
+          result[index].content +
+          "')\" /> </td> </tr>";
+      }
+      displayText += "</table>";
+
+      document.getElementById("p1").innerHTML = displayText;
+    });
+
+    function edit(id, title, content) {
+      sessionStorage.setItem("id", id);
+      sessionStorage.setItem("title", title);
+      sessionStorage.setItem("content", content);
+      location.href = "UpdateBlog.html";
+    }
+  </script>
+</html>

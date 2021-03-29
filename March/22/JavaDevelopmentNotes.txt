@@ -1,0 +1,10 @@
+What is a Jar File (Java Archive)?
+- It's similar to a zip file. Its aggregation of multiple class files into one.
+
+Why do we need a Jar file?
+- It's the output of one entire program. This one executable can be passed to end users to use your developed program without the IDE.
+
+Java Files:
+Java code is not just used to create web page logic but also 
+to work with different types of files.
+

@@ -1,0 +1,15 @@
+<html>
+  <p id="p1"></p>
+  <script>
+    var personObj = JSON.parse('{"name":"Jack", "age":29, "city": "Toronto"}');
+
+    document.getElementById("p1").innerHTML =
+      personObj.name +
+      " " +
+      personObj.age +
+      " " +
+      personObj.city +
+      " " +
+      personObj.dob;
+  </script>
+</html>

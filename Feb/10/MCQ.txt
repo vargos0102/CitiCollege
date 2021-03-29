@@ -1,0 +1,78 @@
+
+1. JSON stands for?
+
+ Java Standard Output Network
+ JavaScript Object Notation
+ JavaScript Output Name
+ Java Source Open Network
+
+b.
+
+2. Which is correct format of writting JSON name/value pair
+'name : value'
+ name = 'value'
+ name = "value"
+ "name" : "value"
+
+d.
+
+3.What is the MIME type for JSON?
+ application/js
+ application/json
+ json/mime
+ application/xml
+
+b.
+
+4. Which of following statement is false about the space parameter in JSON.stringify() ?
+ It controls spacing in the resulting JSON string
+ It is an optional parameter
+ It removes whitespace
+ All are false
+
+c.
+
+5. Is JSon case sensitive?
+ Yes
+ No
+
+a.
+
+6. What two main structures compose JSON?
+ Arrays and Objects
+ Key and value
+ Class and Object
+
+b.
+
+7. JSON strings have used in _.
+ Double quote
+ Single quote
+ Both 1 & 2
+ None of These
+
+a.
+
+8. What is the common usage of Json on modern websites?
+ To send and receive bits of data
+ To store information remotely
+ To store information locally
+ All of the Above
+
+a.
+
+9. JSON elements are separated by the -
+ line break
+ semi-colon
+ comma
+ white space
+
+c
+
+10. Which of the following code will throw an error?
+ JSON.parse(‘{}’);
+ JSON.parse(null);
+ JSON.parse(undefined);
+ JSON.parse(‘[]’);
+
+c

@@ -1,0 +1,45 @@
+
+Prerequisite of understanding REST API?
+- Basic understanding of Java.
+- Basic understanding of JSON.
+- How the web world works.
+
+What is HTTP and What does it do?
+- Hypertext Transfer Protocol
+- It's responsible for fetching of resources(html, image , video)
+- It's a way client and server interacts with each other
+
+What does it contain?
+- Http request -> URL meaning website address (example: index.html, image.jpg, news.mp4)
+- Http response -> what server has to give you back..
+
+What is REST API (Application Programming Interface)?
+- Representational State Transfer 
+- It's web service way that follows RESTful standards
+- It relies on HTTP protocol to transfer the data..
+
+
+Why do we need REST API?
+- It's use to decouple the client and server.
+- It's build once to expose server data to multiple clients (IOS app, android app, official webpage, IoT (Internet of things))
+
+Request Methods:
+1. Get - it's used to fetch the data.
+
+Core Java or Basics.
+- JSP (Java Server Pages)
+- Spring Boot (Framework)
+
+What is Spring?
+Spring Framework which is an inversion of control container for Java Platform.
+- Spring framework handles most of the code for connecting or inserting the data into datasource (database)
+
+What is Spring Boot?
+- Sping Boot gives you predefined dependencies and configuration to build application.
+
+Why to learn Spring Boot?
+- Simply to develop REST API in Java
+
+What is the difference between JSON and API?
+- JSON is a format for exchanging data
+- REST API, is a medium of communication between multiple client and servers.

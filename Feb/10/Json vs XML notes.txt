@@ -1,0 +1,31 @@
+What is XML (extensible markup language)?
+- Its a standard commonly use to transfer the data between client and server.
+In development environmet some files are also kept for configurations or settings.
+
+What is JSON (JavaScript object notation)?
+- Its also used for storing and transporting data from server to client and vice-versa.
+Its light weight compared to XML.
+
+What all data types are supported by JSON?
+- string, number, array, boolean, object and null
+
+Similarities between XML and JSON
+- They both are heirarchical.
+- widely adopted by many programming language.
+- both are light weith and used for http request.
+
+Differences between XML and JSON
+- json is not tag based, hence saves space and less complexity.
+- it's short, quick and easy to read.
+- json has arrays while xml doesn't.
+
+What is JSON.parse?
+- it's use to convert a string into valid Javascript object.
+
+
+What is Stringify?
+- it's use to convert the javscript object to a string.
+
+Nested Json Object:
+
+

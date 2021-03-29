@@ -2,9 +2,18 @@ package com.abstraction;
 
 abstract class Employee {
 
-    String fname;
+    private String fname;
     String lname;
     int age;
+
+    public String getFName()
+    {
+      return fname;
+    }
+    public void setFName(String value)
+    {
+        fname = value;
+    }
     public String getFullName()
     {
         return  fname + " "+lname;

@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <p id="p1"></p>
+    <script>
+      var text =
+        '<bookstore><book category="cooking"><title lang="en">Everyday Italian</title> <author>Giada De Laurentiis</author> <year>2005</year> <price>30.25</price> </book> <book category="children"> <title lang="en">Harry Potter</title> <author>J K Rowling</author> <year>2005</year> <price>29.99</price> </book> <book category="web"> <title lang="en">Basics of JavaScript</title> <author>Erik T Ray</author> <year>2003</year> <price>19.99</price> </book> </bookstore>';
+      var parser = new DOMParser();
+      var xmlDoc = parser.parseFromString(text, "text/xml");
+
+      document.getElementById("p1").innerHTML = xmlDoc.getElementsByTagName(
+        "title"
+      )[2].childNodes[0].nodeValue;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+
+    <p:employee xmlns:p="http://www.myorg.com/personal/info">
+        <p:id>202</p:id>
+        <p:name>Jack</p:name>
+        <p:department>Accounting</p:department>
+        <p:salary>1000</p:salary>
+    </p:employee>
+    <p:employee xmlns:p="http://www.myorg.com/personal/info">
+        <p:id>203</p:id>
+        <p:name>Peter</p:name>
+        <p:department>IT</p:department>
+        <p:salary>900</p:salary>
+    </p:employee>

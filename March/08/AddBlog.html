@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <label>Title</label>
+  <input type="text" id="titleValue" /><br />
+  <label>Content</label>
+  <input type="text" id="contentValue" /><br />
+  <input type="button" value="Submit" onclick="add()" />
+
+  <script>
+    function add() {
+      let title = document.getElementById("titleValue").value;
+      let content = document.getElementById("contentValue").value;
+      $.post({
+        type: "POST",
+        url: "http://localhost:8080/blog",
+        data: JSON.stringify({ title: title, content: content }),
+        contentType: "application/json",
+        success: function (data) {
+          alert("Success!!");
+        },
+      });
+    }
+  </script>
+</html>

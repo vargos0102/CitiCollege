@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <label>Id</label>
+  <input type="text" id="idValue" disabled /><br />
+  <label>Title</label>
+  <input type="text" id="titleValue" /><br />
+  <label>Content</label>
+  <input type="text" id="contentValue" /><br />
+  <input type="button" value="Submit" onclick="update()" />
+
+  <script>
+    document.getElementById("idValue").value = sessionStorage.getItem("id");
+    document.getElementById("titleValue").value = sessionStorage.getItem(
+      "title"
+    );
+    document.getElementById("contentValue").value = sessionStorage.getItem(
+      "content"
+    );
+    function update() {
+      let id = document.getElementById("idValue").value;
+      let title = document.getElementById("titleValue").value;
+      let content = document.getElementById("contentValue").value;
+      $.post({
+        type: "PUT",
+        url: "http://localhost:8080/blog/" + id,
+        data: JSON.stringify({ title: title, content: content }),
+        contentType: "application/json",
+        success: function (data) {
+          alert("Success!!");
+        },
+      });
+    }
+  </script>
+</html>

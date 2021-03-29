@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <p id="p1"></p>
+  <script>
+    //"https://api.mocki.io/v1/b043df5a"
+    let result = "";
+    $.get("https://api.mocki.io/v1/b043df5a", function (data) {
+      console.log(data);
+      result = data;
+
+      let displayText = "";
+      for (let index = 0; index < result.length; index++) {
+        displayText += result[index].name + " " + result[index].city + "<br>";
+      }
+
+      document.getElementById("p1").innerHTML = displayText;
+    });
+  </script>
+</html>

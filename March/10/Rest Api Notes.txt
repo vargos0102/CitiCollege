@@ -1,0 +1,97 @@
+
+Prerequisite of understanding REST API?
+- Basic understanding of Java.
+- Basic understanding of JSON.
+- How the web world works.
+
+What is HTTP and What does it do?
+- Hypertext Transfer Protocol
+- It's responsible for fetching of resources(html, image , video)
+- It's a way client and server interacts with each other
+
+What does it contain?
+- Http request -> URL meaning website address (example: index.html, image.jpg, news.mp4)
+- Http response -> what server has to give you back..
+
+What is REST API (Application Programming Interface)?
+- Representational State Transfer 
+- It's web service way that follows RESTful standards
+- It relies on HTTP protocol to transfer the data..
+
+
+Why do we need REST API?
+- It's use to decouple the client and server.
+- It's build once to expose server data to multiple clients (IOS app, android app, official webpage, IoT (Internet of things))
+
+Request Methods:
+1. Get - it's used to fetch the data.
+
+Core Java or Basics.
+- JSP (Java Server Pages)
+- Spring Boot (Framework)
+
+What is Spring?
+Spring Framework which is an inversion of control container for Java Platform.
+- Spring framework handles most of the code for connecting or inserting the data into datasource (database)
+
+What is Spring Boot?
+- Sping Boot gives you predefined dependencies and configuration to build application.
+
+Why to learn Spring Boot?
+- Simply to develop REST API in Java
+
+What is the difference between JSON and API?
+- JSON is a format for exchanging data
+- REST API, is a medium of communication between multiple client and servers.
+
+What is Postman?
+- It's required to test your Rest APi.
+
+What are different request types in http?
+- Get (read the information or to get the details)
+- Post (create data on the server or post some data)
+- Put (updating already created data on the server)
+- Delete (to delete an already existing data on the server)
+
+What are http error codes?
+- List of http response status codes.
+Status code are issued by a server in response to a client's request. 
+First digit of status code defines the type of response.
+ 
+
+Most common http error codes are
+1. 500 Internal server error (your code threw an exception)
+2. 404 Not found (meaning your url is not correct)
+3. 401 Unauthorized (you are trying to access data which you are not authorized to)
+4. 200 OK (which means that response is working as expected)
+5. 201 Created (Sometimes post request with create sends this instead of 200)
+6. 502 Bad Gateway 
+
+CRUD (Create, Read, Update and Delete)
+
+http://localhost:8080/blog
+
+
+What is authentication?
+- to establish identity of the user. 
+- you ask for username and password.
+
+Popular Authentication mechanism
+- JWT(JSON Web Token) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

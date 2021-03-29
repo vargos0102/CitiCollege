@@ -1,0 +1,16 @@
+<organization>
+<employees>
+    <employee>
+        <id>202</id>
+        <name>Jack</name>
+        <department>Accounting</department>
+        <salary>1000</salary>
+    </employee>
+    <employee>
+        <id>203</id>
+        <name>Peter</name>
+        <department>IT</department>
+        <yearlyBonus>500<yearlyBonus>
+    </employee>
+</employees>
+</organization>

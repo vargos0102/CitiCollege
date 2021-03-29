@@ -1,0 +1,12 @@
+{ 
+    "name": "Jack", 
+    "age": 15, 
+    "city": "Toronto", 
+    "dob": "1990-12-01", 
+    "subjects":["Maths", "Science", "English"],
+    "marks": [
+        {"subjectName":"English", "mark":88, "teacherName":"Milo"},
+        {"subjectName":"Maths", "mark": 80}, 
+        {"subjectName":"Science", "mark": 75}
+        ] 
+}

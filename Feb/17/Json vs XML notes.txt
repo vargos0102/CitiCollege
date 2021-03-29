@@ -1,0 +1,73 @@
+What is XML (extensible markup language)?
+- Its a standard commonly use to transfer the data between client and server.
+In development environmet some files are also kept for configurations or settings.
+
+What is JSON (JavaScript object notation)?
+- Its also used for storing and transporting data from server to client and vice-versa.
+Its light weight compared to XML.
+
+What all data types are supported by JSON?
+- string, number, array, boolean, object and null
+
+Similarities between XML and JSON
+- They both are heirarchical.
+- widely adopted by many programming language.
+- both are light weith and used for http request.
+
+Differences between XML and JSON
+- json is not tag based, hence saves space and less complexity.
+- it's short, quick and easy to read.
+- json has arrays while xml doesn't.
+
+What is JSON.parse?
+- it's use to convert a string into valid Javascript object.
+
+
+What is Stringify?
+- it's use to convert the javscript object to a string.
+
+Nested Json Object:
+'{"name":"Jack", "age":15, "city": "Toronto", "dob":"1990-12-01", "subjects":["Maths", "Science", "English"], "marks": [ {"subjectName":"English", "mark":88, "teacherName":"Milo"}, {"subjectName":"Maths", "mark": 80}, {"subjectName":"Science", "mark": 75} ] }'
+
+Mock Json response from api:
+$.get("https://api.mocki.io/v1/b043df5a", function (data) { //perform logical operations }
+
+
+Why to use XML?
+- it's easy to read and understand.
+It's designed to store and transport data. 
+It's also used for storing different configurations and templates.
+
+What are the advantages of using XML?
+- It doesn't use any predefined tags. Author can define the tags and structure.
+- you can add or remove tags as needed.
+- It's widely adopted by most of the programming languages and have libraries to translate it.
+- it's a recommended standard widely accepted by different platforms and channels.
+
+Practical uses:
+- Medical records, Scientific measurements, Booking channels
+
+What is xml element?
+- it's the start and end tag. <book> </book>
+
+What is an attribute?
+- It contains data related to a specific element.
+
+What are namespaces in XML?
+- It's used to uniquely define the xml tags in case of any name conflicts.
+
+XML Parser:
+All browsers have a built in XML parser to access and manipulate the XML.
+Before XML document can be accessed, it must be loaded into an XML DOM Object.
+
+What is DOM (Document Object Model)?
+- It's a standard for accessing and manipulating documents.
+XML DOM defines a standard way for accessing and manipulating XML documents. It's represented
+as a tree- structure.
+
+XPath and XSLT
+- XSL (Extensible Stylesheet Language)
+- XSLT (XSL Transformations)
+
+
+
