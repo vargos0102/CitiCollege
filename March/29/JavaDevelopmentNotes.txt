@@ -1,0 +1,44 @@
+What is a Jar File (Java Archive)?
+- It's similar to a zip file. Its aggregation of multiple class files into one.
+
+Why do we need a Jar file?
+- It's the output of one entire program. This one executable can be passed to end users to use your developed program without the IDE.
+
+Java Files:
+Java code is not just used to create web page logic but also 
+to work with different types of files.
+
+File class/ File Obj
+is use to create file at the desired location.
+If no absolute path is provided, it will by default takes the code directory location.
+
+FileWriter class/ FileWriter obj
+It is use to add content into the file.
+Write operation performs clean writing in the file.
+While append operation appends the data to an existing file..
+
+Read File
+File class gives you the location. While Scanner class helps you to read one line at a time.
+
+Delete File/Folder
+File class can get the file information like readOnly, absolute path and ModifiedDate.
+File class can delete any particular file or folder.
+
+Lambda Expressions
+It was introduced in Java 8 version.
+
+A lambda expression is a short block of code which takes in parameters and returns a value.
+parameter -> expression
+
+--------------------------------------------------------
+
+Java Stream
+Stream is a component that is capable of internal iterations of it's elements.
+
+Why to learn Java Stream?
+- It's way more faster than a traditional for loop.
+- It's a step closer to learning lambdas.
+- it's used on day to day basis.
+
+
+

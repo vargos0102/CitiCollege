@@ -1,0 +1,75 @@
+Usescases:
+1. If you have certain files which contains code/ app and you want to preserve these files
+apart from your local computer ( eliminate local/computer dependency )
+2. I have created a certain functionality and I want my peers to continue on top of it and
+share files/ code with them ( sharing of code )
+3. ( Version or branching )
+
+Source Control:
+It is the practice of tracking and managing changes to the code.
+
+Examples of source control systems:
+- VSS (Visual source safe) 
+- TFS (Team Foundation Server)
+- Git 
+- CVS (Concurrent Version System)
+- SVN (Apache Subversion)
+
+Git Features
+- Compatible with existing systems and protocols HTTP, FTP, ssh.
+- Strong support for development.
+- Capable of efficiently handling small to large sized projects.
+
+Pros
+- Super-fast and efficient performance
+- Cross-platform
+- Code changes can be very easily and clearly tracked
+- Easily maintable and robust
+- Offers a command line utility known as git-bash
+- It also offers a comparable GUI to track your changes
+
+Cons
+- Complex and bigger history log become difficult to understand
+
+Open Source: Yes
+
+Cost: Free
+
+Prerequisite: install Git and create an account on Github.
+
+Difference between Git and GitHub
+Git: it's an opensource, version control tool created in 2005 by developers working on the Linux operating system.
+Github is a company founded in 2008 that makes tools which integrate with git. 
+You do not need GitHub to use git but you can use GitHub without using git. There are many other alternatives to GitHub such as 
+GitLab, BitBucket.
+
+
+Repository:
+A repository contains all of your project's files and each file's revision history.
+You can discuss and manage your project's work within the repository.
+It can store or share all file extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
