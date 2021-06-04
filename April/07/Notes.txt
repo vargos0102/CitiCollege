@@ -58,10 +58,22 @@ git push - its used to upload local repository content to remote repository.
 git pull - its used to fetch and download the content from the remote repository.
 
 
+What is branching?
+- A branch represents an independent line of development.
 
+Why do we need branching?
+- Branching means you diverge from the main line of development and continue to do work without messing
+with that main line.
 
+git checkout development - where development is the name of the branch.
+while switching branches always commit your existing branch changes.
+And always to git pull after git checkout.
 
+What is Merging?
+- It lets you take the independent lines of development created by git branch and integrate them into a single branch.
 
+What is a pull request?
+- When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch.
 
 
 

@@ -1,0 +1,18 @@
+[
+  { "id": 1, "title": "My Updated Title", "content": "My updated Content" },
+  {
+    "id": 5,
+    "title": "Daily blog March 4 2021 at 6:40 PM",
+    "content": "Writing Java API method for update.."
+  },
+  { "id": 30, "title": "Title for demo", "content": "Content for demo" },
+  { "id": 31, "title": "New Day..", "content": "New Day and New Begining.." },
+  { "id": 33, "title": "Autobiography", "content": "Empty pages.." },
+  { "id": 34, "title": "Popeye the sailor", "content": "Sailor Man.." },
+  {
+    "id": 35,
+    "title": "How to persist data in DB",
+    "content": "Our API written in Spring boot/ Java"
+  },
+  { "id": 37, "title": "How to loose weight..", "content": "No cheat day.." }
+]

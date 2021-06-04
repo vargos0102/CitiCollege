@@ -1,0 +1,41 @@
+<div style="width: 20%; margin: auto">
+  <div>
+    <mat-label style="margin-right: 10%">Title</mat-label>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Title</mat-label>
+      <input
+        matInput
+        #message
+        maxlength="400"
+        placeholder="Title"
+        [(ngModel)]="title"
+        [formControl]="titleFormControl"
+      />
+      <mat-error> Title is required </mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-label style="margin-right: 4%">Content</mat-label>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Content</mat-label>
+      <input
+        matInput
+        #message
+        maxlength="4000"
+        placeholder="Content.."
+        [(ngModel)]="content"
+      />
+    </mat-form-field>
+  </div>
+  <button
+    mat-raised-button
+    color="primary"
+    style="margin-left: 18%"
+    (click)="addBlog()"
+    [disabled]="!content || !title || content.length == 0 || title.length == 0"
+  >
+    {{ isEdit ? "Update Blog" : "Add Blog" }}
+  </button>
+</div>

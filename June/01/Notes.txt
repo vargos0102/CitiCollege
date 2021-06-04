@@ -1,0 +1,39 @@
+Static Website
+- HTML + CSS + JavaScript
+
+Dynamic Website
+- MySQL Database + Spring Boot Rest API in Java + Angular (HTML/CSS/JavaScript)
+
+
+A restaurant webpage.
+Business: KitchenClassics
+
+Blob(Binary Large Object): doc, pdf, xlsx, .db, .sql
+
+DNS(Domain name service) : 
+kitchenclassics.ca 
+
+
+CDN(content delivery network):
+It basically avoids multiple network hops and serve the cached data.
+
+Step 1:
+Domain?
+- Unique name on the internet/web.
+Ex: citicollege.ca
+
+Business specific(commerce) -.com
+Country specific - .ca .us .au 
+Network specific - .net
+Organization -     .org
+Information -      .info
+
+kitchenclassics.ca from googledomains for $17/year.
+
+Step 2:
+Develop a static website.
+
+Step 3:
+Hosting?
+Borrow hosting space (web server)
+

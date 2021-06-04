@@ -1,0 +1,72 @@
+What is Angular?
+- Angular is a javascript front-end framework.
+
+What is a Javascript framework?
+- framework means a basic and a generic structure to do repeatative tasks.
+- its a prewritten JavaScript that allows for easier development of Javascript based applications.
+
+What is front-end language?
+- HTML/CSS/Javascript. 
+- Fast and complex operations done by a website.
+
+What are different JavaScript frameworks?
+- Angular (Google), React (Facebook), Vue.js
+
+Some Websites written in Angular
+- Lego, forbes, travel.gov and many more..
+
+Some websites written in React
+- Airbnb, Instagram, Salesforce and many more..
+
+
+How to create a new app?
+1. open cmd prompt (windows-> cmd)
+2. select or create a new folder under which you want to create an app
+3. now go to this folder in cmd prompt: cd folderpath
+4. create a new app by typing: ng new my-first-project
+5. go to the project folder by typing: cd my-first-project
+6. compile or run your project by typing: ng serve
+7. Open browser and type: localhost:4200
+
+SPA (Single Page Applications)
+- There is only 1 html page and the content on this page would keep on changing based on the page views.
+
+Component in Angular
+- It is basic UI building blocks of an Angular app.
+A component has 3 files ( .html, .css, .ts)
+
+.html --> some html code
+.css --> any styling classes 
+.ts --> where is you write the code or load the data.
+.spec.ts --> writing unit tests
+
+What is Angular MAterial UI?
+- It's basically a UI library which gives us basic UI controls specially for the Angular development.
+- It is free/ Open Source
+- It is developed by Google
+
+Ctrl + C : To terminate the compilation/Stop
+
+ng generate component name-of-component
+or
+ng g c name-of-component
+
+ng generate service name-of-service
+or
+ng g s name-of-service
+
+Steps to create a record.
+1. Add service method which will call the REST API
+2. capture the content which is input/typed
+3. pass it to the service method addblog
+
+ 
+
+
+
+
+
+
+
+
+
