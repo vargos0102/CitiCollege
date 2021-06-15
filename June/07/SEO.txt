@@ -1,0 +1,97 @@
+SEO (Search Engine Optimization)
+
+- It is a digital marketing tool comprising of different elements to make a website more visible,
+which attracts more traffic and in turn drives the revenue.
+
+
+http://sellingthings.com/chairs/wood-chairs/teak-wood-chair
+http://sellingthings.com/
+
+teak wood chair
+
+Key Words:
+Content:
+Web page content
+Video
+Podcasts
+ - Saturday night superbowl exlusive podcast
+
+Techniques implied for strong SEO:
+1. Backlink building.
+2. Local SEO specific for Google Maps
+3. Search Engine Marketing (SEM)
+
+Ranking:
+It refers to the website positions when searched in any search engine(Google, DuckDuckGo)
+
+What impacts the ranking?
+1. Security and accessible website
+- https connection and if website can be navigated with tab controls and can be read out loud in
+the same order.
+
+2. Page Speed (SLA)
+- Page load time generally should be less than 3 seconds.
+
+3. Is your website responsive (Mobile friendly)
+
+4. Domain Age, URL
+- classicrecipes.ca, the average age for a domain is 3 years or more.
+
+5. Optimized Content
+- using the right keyword for search engine guides.
+Toronto Real Estate
+
+6. Technical SEO
+a. List down keyword/ phrases in page title, this is the first place where Google first looks to 
+determine which content is relevant
+
+b. Use header tags to show content starting with your title at h1 and then use h2 or h3 for sub heads.
+
+c. Create a meta description which include key phrases.
+Keep meta descriptions short and catchy with 160 characters limit.\
+
+d. Use keyword phrases in image alt text to show show images relevant to main content.
+It's important from accessibility stand point as well.
+
+e. TO use schema markup to tell more about your web content to Google.
+
+7. User Experience(RankBrain)
+- It simply means if you click on a search result and spend time on that web page.
+It implies that the search result was useful.
+
+8. Links
+- Inbound links, Outbound links, Internal links.
+a. Inbound links: Sometimes also known as backlinks. Which bring user back to your website or the url points into your application. 
+Google views inbound links as an indicator that your site has high quality content making these links one of the most important elements in search engine optimization. 
+
+b. Outbound links: You put out links only to reliable sources that have high trust and domain authority.
+
+c. Internal links: every internal page to have a link of it's own. The reason being every page gets individual ranked and indexed based upon the content.
+www.mycompanydomain.com/officedesks
+www.mycompanydomain.com/officechairs/high-black-chair
+
+9. Social Signals
+- The more number of shares on social media. The better the SEO rankings.
+  FB, Twitter, Insta, Whatspp, Telegram
+
+10. Business information
+- Name/ Add/ phone number of any business espcially if the search is local.
+- Reviews on Google/Yelp
+- Business listings on Google My Business and facebook
+
+SERP (Search Engine Results Page)
+This feature is not an organic seach result. The most common serp features are:
+
+1. Rich Snippets - which adds visual appearance and show product ratings.
+2. Paid Results - uses keywords from google ads.
+3. Universal results - this appear in addition to organic results.
+4. Knowledge Graph(Card/Panel) - data which appears as panels or boxes.
+
+Compression and Minification
+
+
+
+
+
+
+
