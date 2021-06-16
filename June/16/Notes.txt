@@ -1,0 +1,154 @@
+SEO : Search engine optimizations done to web application/ website so as to rank them higher in the search engines.
+
+Analytics: computational analysis of data or statistics
+
+What does analytics means on a web app/website?
+- it's going to collect information about the user behavior on that particular application along with the source of traffic.
+
+Example 1:
+ikea.ca (4000-5000 in a day)
+- 10 chairs
+- best seller online  
+- best seller in store
+
+Example 2:
+Own a restaurant 
+
+Which platform based app(iOs/Android)?
+- website - classiceats.ca (400-500 in a day) 
+1. Location (Toronto/Canada)
+2. Web browser (Microsoft Edge)
+3. Platform or Operating System (Android)
+
+66% of users use Android
+33% of users use iOS
+1% of users use from desktop
+
+8% of users use Android
+12% of users use iOS
+80% of users use from desktop
+
+Android application
+post offices in ontario (pay to get the list\ api)
+L5A -
+M5K -
+
+Different Analytics products:
+1. Adobe
+2. Google Analytics
+3. Microsoft Power BI
+4. SAP BusinessObjects
+
+Google Analytics:
+You can basic use cases for small traffic it's free. For advanced use cases and traffic it's paid.
+
+Reasons Why analytics are important:
+1. It exactly tells the medium from which the user landed on your website.
+2. You can track user on the website.
+3. You can gain demographic data (Canada/US)
+4. You can find the most popular pages on your website
+5. Helps to track conversion
+6. Its easy to setup and basic is free.
+
+Limitations:
+1. Certain browser extensions which block Javascript code/ ad blocker from running impacts the analytics code as well.
+2. VPN/ TOR browser/ Extensions have the capability of giving inaccurate geographical location.
+3. Users deleting cookies or blocking them hinders collection of data or disabling them altogether.
+
+Where to code for analytics?
+Analytics code is nothing but a block of Javascript file/code which downloads/runs on your web
+browser along with your own html/css/javascript code.
+With unique tranctaion Id which identifies for only your domain/website.
+
+ <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "TRACKING_ID");
+    </script>
+
+--------------------------------------------------------------------------------------------------
+What does Analytics measure?
+- It reports dimensions and metrics.
+Dimensions: are the attributes of your data, such as the city where the traffic is coming from,
+the page you're measuring, or the social media channel you're evaluating.
+Metrics: are the quantitative measurements for those dimensions. 
+
+What can you do with Google Analytics?
+-
+A - Acquisition
+B - Behavior
+C - Conversions
+
+Acquisition
+- Acquisition refers to how you get website traffic/visitors on your website/app.
+Examples: referral, direct, organic search and social
+
+Behavior
+-  The behavior refers to what all visitors are actually doing on your website. 
+By using behavior reports, you can asses the performance of your website content and determine if 
+your visitors are taling the actions you want them to.
+
+Conversions
+It's all about understanding how people convert on your website, ultimately guiding conversion rate.
+Conversion reports are broken into four sections: goals, eCommerce, multi-channel funnel and attribution.
+
+Bank: CIBC
+Monthly average 
+User - You login everyday (1)
+Session - Analytics sessions (1)
+
+Users: The total number of users visited your website.
+Sessions: Unique visitors on your website.
+
+Sessions > Users: That the content is not sufficient to retain the users.
+User > Sessions: It means you have more reoccuring user base.
+
+Page Views: 
+page url /home - 100
+ 
+1000 doing the search 
+500 seeing the room price
+200 actual cc booking/ personal details
+50-75 booked through website.
+
+Conversion rate 50/1000 *100 percent
+
+Demographics: Drills down the user to actual Physical Country/City
+
+System: Gives all the technical information about the OS/Browser the user is using.
+
+Acquisition: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
