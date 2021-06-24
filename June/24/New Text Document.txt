@@ -1,0 +1,11 @@
+1. Your company has a website and a mobile app, and you want to track each separately in Google Analytics.
+How should you structure your accounts?
+
+a. One account, one property, no views
+b. One account, two properties
+
+
+2. Which of the following Behavior reports could you use to find new keyword ideas for your search advertising campaigns?
+
+a. Site Search 
+b. All Pages
