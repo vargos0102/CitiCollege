@@ -1,0 +1,18 @@
+Python
+--  
+Service Now
+--Web Apps environment - Dev -> QA -> SIT/UAT -> Prod 
+--SSL
+HTTP
+- https://www.restapitutorial.com/httpstatuscodes.html
+1. Making sure the server is reachable on desired port.
+2. Querying the api service to see if it's responding.
+3. based on the status code/ http error codes, next steps are decided. 
+
+--DNS 
+  Types CNAME, MX, TXT
+--Load Balancing - F5
+SQL
+- Inner, Left,Right, Full
+https://www.w3schools.com/sql/sql_join_inner.asp
+
