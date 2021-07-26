@@ -1,0 +1,257 @@
+Introduction to Digital Marketing
+
+What is Digital Marketing?
+- Refers to the advertising delivered through digital channels such as search engines, websites, social media, email and mobile apps.
+Using these services/ channels / methodologies the company endorses goods, services and brands.
+
+
+What is different with respect to the traditional marketing?
+- The difference is the medium through which an audience encounters a marketing message.
+So while traditional media like magazines and newspaper. Digital marketing uses digital media, such as social media or websites.
+
+Does Traditional media still relevant?
+-  Yes it is still relevant. Not all services are availble or marketable online.
+Example: B2B service providers which have a small consumber base.
+
+Even the digital media/medium lean on the traditional medium time to time. 
+Example: Mail coupons for online stores.
+
+Types of Digital Marketing
+1. Search Engine Optimization 
+2. Pay per click (PCC)
+3. Social Media Marketing
+4. Content Marketing
+5. Email Marketing
+6. Mobile Marketing
+7. Marketing Analytics
+
+1. Search Engine Optimizations(SEO): 
+
+Search: Buy car in ontario
+- Both dealers and indididuals 
+- autotrader.ca
+- kijiji.ca
+- 
+
+Search: Buy car from dealer in ontario
+- Both dealers and individuals
+- No 1 Honda dealership/ dealer in Ontario
+
+Content indexing - it should read the descriptions for images and text transcripts for videos.
+Good link structure - Its important for search engine crawlers to find the URLs and sitemaps to provide easy access.
+Keywords and keyword targeting - Poperly deploying your keywords.
+
+2. Pay-per-click(PPC)
+Refers to the paid advertisement and promoted search engine results.
+This refers to the ads you see while browsing the web, ads before youtube videos and in ads in mobile apps.
+Over here you only pay for users that clicked on the ads and landed on the website.
+
+This also gives you ability to save money and only show ads closer to your business or service location.
+
+Example:
+- $500 - $600 take down the ad.
+- $1000 - $1500 
+- $2000 - $3000 
+
+3. Social Media Marketing
+
+This is more work as compared to managing personal Facebook/Twitter/Instagram profiles. It requires a lot more creative thinking and objective, data driven strategy to promote products/services.
+Social media marketers must also be savvy at analyzing the performance of their posts and creating strategies based on that data.
+
+4. Content Marketing
+
+It's a storytelling and information sharing to increase brand awareness.
+The ultimate goal is the reader take an action towards becoming a customer.
+Examples include: Blog posts, white-papers, e-bboks, digital videos and much more.
+
+Unlike PPC this is a long term strategy. Over time the library content will keep on expanding bringing users from search engines to your
+websites. This also promote knowledge and know hows about your product.
+
+5. Email Marketing
+Emails are effective way of communication along with Social Media, Mobile applications and other channels.
+
+Email marketing software offers different analytical measures.
+1. Open rate: the percentage of recipients who opened the email.
+2. Click through rate: the number of recipients who opened the email and clicked on a link in the email.
+
+Measures making email more appealing
+a. Create a Sense of Urgency - This let the recipient know that time is running out on a deal or there are only limited number
+of quantities on an offer available.
+b. Personalize your email - Adding recipients name to subject line is a proven way to increase open and click through rates.
+c. Let recipients set their preferences - Allowing users to specify how often they wish to hear from you.
+
+6. Mobile Marketing
+Mobile marketing is focused on reaching target audience on thier smart phones or tablet.
+Mobile marketing reaches people through text messages, social media, websites, email and mobile applications.
+
+Marketers can tailor offers or special content to a geographic location or time, such as when a customer walks into a store or enters
+an event.
+Average individual spend 2-5 hours in a day on their phones. Users also spend much time on apps rather than on mobile browsers.
+Mobile devices are involved in 45% of sales in some or the other way.
+
+7. Marketing Analytics
+It tracks user behavior on a detail level. How many times user clicked on a link, how much time they spend on a web pages, how often they opened the email.s
+and wether they used the email coupons or not.
+This strategy implies on "fail-fast". Quickly cutting campaigns that aren't working and building better ones.
+
+Digital Marketing Assests
+
+- Your website
+- Branded assests(logos, icons, acronyms)
+- Video Content (videos ads, product demos)
+- Images (infographics, product snapshots, company photos)
+- Written Content (blog posts, eBooks, product descriptions, testimonials)
+- Online products or tools 
+- Reviews 
+- Social media pages
+
+Remarketing:
+If you ever felt like websites you've visited are following you with their ads.. that's called remarketing.
+
+How it works?
+When someone visits your website from any device, a few lines of code from your retargeting partner like Google Adwords drops an annymous cookie in the user's browser. This cookie stores valrious bits of information and tracks the site visit without storing any sensitive personal info.
+Then when this cookied user leaves your website, the cookie tells your ad platform when they land on another one. Then you ad appears. Statically visitors targeted with ads are 70% more likely to convert on your website.
+
+
+Video Marketing
+
+- Video marketing are more likely to increase Google page ranks as compared to plain text.
+- It is more engaging and informational then any other types of channels or media.
+- It helps the buyer make a confident purchase and are more likely to make a purchase.
+- People who watch videos stay on a site 2 min longer on average and more likely to make a purchase.
+- It also means web pages with videos have a signifiantly higher average time on site than those without videos.
+- Next to Google, Youtube is the second largest search engine out there.
+- Videos also help build trust with fraction of cost. 
+
+Different types or subcategories:
+Marketing video should be under 60 sec in fact they should be under 10 seconds for maximum impact.
+Things to include in your marketing plan.
+- How-to videos of your products and services
+- Customer testimonials
+- Company culture videos
+- Videos highliting the benefits of using your products and services.
+
+The Metrics and KPIs
+None of the strategies will work unless they are tracked and tweaked based on metrics that affect your sales.
+There is a key to identify which metrics matter and to do that we need to know the difference between a metric and KPI (Key Performance Indicator)
+
+KPI: Metrics that demonstrate how effectively a company is achieving key business objectives necessary for growth.
+Metric: A metric is just a number
+While KPI is a metric that is most closely tied to the overall business success.
+
+While metrics are helpful in forming specific strategies, only certain ones can help you refine and tailor your business strategy.
+
+Bounce rates, page views, time on page, new visitors, and search rankings are all metrics.
+These are the KPIs that really matter to your digital marketing strategy:
+
+- Total sales
+- Leads
+- Revenue 
+- Return on marketing investment (ROMI)
+- Lead to sale conversion rate
+- Booking rate (from calls)
+- Cost per lead (CPL)
+
+To develop Digital marketing strategy it widely depends on the data of where you've been, your digital strengths, and your company's weakness.
+The first step is to have a digital competitive analysis done.
+
+A competitve analysis will pit your online presence against your top competitors to see where you stand.
+You'll also find out what opportunities they are taking that you aren't and what's necessary to beat them in the search engines and grow your company. 
+Once digital competitive analyses, you'll also get a roadmap of the marketing channels that are the most important for your business.
+
+Google Ad Words:
+Google Ads is place where advertisers can opt for Ads services and pay or customize as per their needs and business.
+
+Keyword keyword keyword - SEO
+meta data should be on your website or description or google page
+
+Case Studies :
+Intuit Mint : It was first launched in 2006 and later sold in 2009 for $170 million.
+
+Challenge: Mint faced an uphill battle, as it needed to convince users that it was safe to consolidate their banking data under a single service.
+Many users were told never to do that.
+
+1. Mint was able to successfully start acquiring revenue through lead generation by 2008 - leveraging its referral fees.
+
+Challenge: they need to convince cuustomers that they needed this service and it was reputable and safe to use.
+2. They used multi-channel marketing, which built authority and brand awareness throughout their targeted millennial audience. 
+
+Multi-Channel :
+a. The MintLife Blog
+Mint understood their key audience were millennials. The Mintlife blog blog was directed at bringing younger individuals who had questions about their finances.
+
+b. Social Medial interaction
+Mint was extraordinarily responsive. The team hosted promotions, gave away free items and discounts and engaged with their key audience.
+Mint social media was not self-promoting. They gave free info about money saving tips, financial news and more.
+
+c. Explainer Videos
+It showed its audience that it needed the tool it was providing. It was able to do this through a sequence of explainer videos and articles designed to show
+the value of the website.
+
+As a free website, it convinced its users to convert to a free account. from there, the value presentation was within the tool itself.
+
+With this today it has currently 20 million users.
+
+
+
+Case Study no. 2:
+
+Dropbox : It was founded in 2007. from 2009 to 2016 grew from 1 million to 500 million users, much of it coming from digital marketing.
+
+Campaigns:
+1. It encouraged customers to invite others through a variety of social media platforms. This was scalable, cost-effective and easy.
+Plus it turned the user into brand ambassador. 
+
+2. it separated its marketing campaigns. It wasn't just a B2C utility. 
+it's ultimate goal were to serve the businesses who will pay for the permium models.
+
+Key aspects that they followed:
+
+1. A Clean, Clear landing page
+- It describes its product in a single sentence and then prompts users to commit. As a free product,it yields the best results by encouraging
+users to test their service.
+Once you try the free version, the company encourage you to pay for a premium version.
+
+2. Built-in Marketing Incentives
+It promts its existing users to refer and promote by giving them more space for their files. When you share something on the social media,
+it makes the fast paced grass roots growth.
+
+3. An Inspiring Market platform
+As an overall utility, Dropbox reached a very large audience. By unique and engaging online marketing campaigns. 
+Customers began to see the brand as stading for something, rather than being yet another software utility.
+
+Case study no 3:
+Personal Services Mangement 
+
+Key aspects of marketing strategy include:
+
+1. Managing Online reviews: The more reviews you have more relevant your business is to the search engine platforms.
+Ultimately more it is pushed to the top of results.
+
+2. Posting Original and Curated Information: To share the custom content and also establoish themselves as an all-round resource.
+Together this made for an active, versatile social media presence.
+
+3. Engaging with followers Online: To establish personal relationship either through social media or directly.
+Along with addressing any questions and followers migh have. If this is not direct client the amount of response mattered in terms of reputation.
+This made specific demographic area or audience get answers to questions and concerns about the process and were able to find the most 
+trustworthy service available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
