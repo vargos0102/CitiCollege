@@ -1,0 +1,23 @@
+client - server
+
+npm - node package manager.
+
+Client Folder
+This creates an empty react application
+Command: npx create-react-app ./ 
+
+This command will start your react app
+Command: npm start
+
+npm install axios moment react-file-base64 redux redux-thunk
+npm install @material-ui/core
+
+------------------------------------------------------------------------
+Server Folder
+This creates an empty package.json file.
+Command: npm init -y 
+
+Command: npm install parser cors express mongoose nodemon
+
+
+mongodb+srv://user001:user001@cluster0.cdmiw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

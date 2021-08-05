@@ -7,7 +7,9 @@ import { Injectable } from '@angular/core';
 export class BlogApiService {
   baseUrl = 'http://localhost:8080/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+    console.log('service');
+  }
 
   getAllBlogs() {   
     return this.http.get(this.baseUrl+'/blog');
