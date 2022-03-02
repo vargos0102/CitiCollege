@@ -1,0 +1,60 @@
+Types of databases:
+SQL & No SQL database
+
+SQL(Structured Query Language)/ Relational: 
+Orcale PL/SQL, MSSQL, MySql
+
+No SQL/ Non Relational: 
+Mongodb, no sql 
+
+MySql: A database is a collection of tables most of them are related to each other.
+
+SELECT * FROM country;
+SELECT * FROM city;
+SELCT * FROM countrylanguage;
+
+Q. Write a query to get all countries where life expectancy is more than 75 years.
+
+Q. Give all the countries where country name starts with Z.
+
+WHERE : use it as a condition with SELECT
+LIKE : when you need to match a patern
+BETWEEN : when you need to find values between certain range
+AND: when more than one condition needs to be true
+OR: when any one of the condition needs to be true
+NOT: When you don't want the records matching that condition
+
+Q. Give the records where population is more than 70000000 and the country is in north america continent.
+
+Q. Select countries where Independence year is greater than 1995 and Region is North America.
+
+Q. Select countries where Life expectancy is more than 75 or Independence year is more than 1975.
+
+Q. Select countries where Life Expectancy is more than 75 and not in continent of Asia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

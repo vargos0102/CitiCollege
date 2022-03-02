@@ -1,0 +1,30 @@
+
+These two terms are used in the context of web. Client-side means that the JavaScript code is run on the client machine, which is the browser. 
+
+Server-side JavaScript(Node)/Java/C#/Python means that the code is run on the server which is serving web pages.
+
+API: An API is basically a set of data, often in JSON format with specified endpoints. ... When we access data from an API, we want to access specific endpoints within that API framework. 
+
+Request Methods:
+URL/Endpoint: https://jsonplaceholder.typicode.com/todos/1
+
+GET
+POST
+
+router.get('http://localhost:5000/posts/', getPosts);
+router.post('http://localhost:5000/posts/', createPost);
+
+PATCH
+DELETE
+
+const name = 'Josh';
+const count = 0;
+const [count, setCount] = useState(10);
+
+npx create-react-app my-app
+
+Hooks
+1. useState
+2. useEffect
+
+

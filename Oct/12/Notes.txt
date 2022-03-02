@@ -1,0 +1,3 @@
+Flexbox:
+It's a layout system to build responsive web pages.
+It's a one- dimensional layout system. It's use to create a single row or column layouts.

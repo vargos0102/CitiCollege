@@ -1,0 +1,31 @@
+Basic:
+Your browser (IE/Edge/Chrome/Safari) understand only 3 things.
+HTML/CSS/Javascript.
+
+
+Javascript
+
+What is Javscript?
+- Javascript allows you to make web pages more interactive.
+It's a programming language used for both client and server side programms.
+It's currently one of the most popular languages. Mostly its used for client side rendering of
+web pages.
+
+
+Why do we need Javascript?
+- Its needed to by Web browsers to create a dynamic and interactive expereince for the user.
+
+HTML DOM (Document Object Model)
+
+                          HTML
+Head					Body
+			h2		button 					p
+		(Text:'Intro Page')  (Text:'Check D&T', Attr: 'onclick')      (Attr: 'id')
+
+
+Difference between Java and Javascript?
+- completely unrelated languages.
+- same as C & C#
+
+
+

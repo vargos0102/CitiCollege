@@ -1,0 +1,130 @@
+Types of databases:
+SQL & No SQL database
+
+SQL(Structured Query Language)/ Relational: 
+Orcale PL/SQL, MSSQL, MySql
+
+No SQL/ Non Relational: 
+Mongodb, no sql 
+
+MySql: A database is a collection of tables most of them are related to each other.
+
+SELECT * FROM country;
+SELECT * FROM city;
+SELCT * FROM countrylanguage;
+
+Q. Write a query to get all countries where life expectancy is more than 75 years.
+
+Q. Give all the countries where country name starts with Z.
+
+WHERE : use it as a condition with SELECT
+LIKE : when you need to match a patern
+BETWEEN : when you need to find values between certain range
+AND: when more than one condition needs to be true
+OR: when any one of the condition needs to be true
+NOT: When you don't want the records matching that condition
+
+Q. Give the records where population is more than 70000000 and the country is in north america continent.
+
+Q. Select countries where Independence year is greater than 1995 and Region is North America.
+
+Q. Select countries where Life expectancy is more than 75 or Independence year is more than 1975.
+
+Q. Select countries where Life Expectancy is more than 75 and not in continent of Asia.
+
+
+
+Q. Select countries where life expectancy is more than 75, view results by country name sorted alphabetically.
+
+Courses.
+
+CourseId CourseName CourseFee Duration
+1        EBDE	     1000      180 
+
+Table Name: students
+studentId firstName lastName address email phone
+
+Excecises: SELECT,WHERE, NULL, ORDER BY, INSERT, UPDATE, DELETE, Between, Alias, Join
+Home work: GroupBy, Database, Wildcards
+
+WHERE : use it as a condition with SELECT
+LIKE : when you need to match a patern
+BETWEEN : when you need to find values between certain range
+AND: when more than one condition needs to be true
+OR: when any one of the condition needs to be true
+NOT: When you don't want the records matching that condition
+ORDER BY: Is used to sort the results by a particular column Values
+JOIN: joining 2 tables which have related columns
+
+NULL: Nothing by default
+ALIAS: its an alternate name given to either table or column for the said query.
+
+INNER JOIN: It's the default join that is used. It will get the rows which exists in both the tables.
+LEFT JOIN: This will get ALL the rows from LEFT table and only matching records from the right table.
+RIGHT JOIN: This will get ALL the rows from RIGHT table and only matching records from the left table.
+
+GROUP BY:
+HAVING:  
+Question: Get the country in Asian continent with highest life Expectancy.
+- 
+
+Data Manipulation Language (DML):
+INSERT, UPDATE, DELETE
+
+Data Definition Language (DDL):
+CREATE, DROP, RENAME, ALTER
+
+
+Q1. Name all the students who stays in Mississauga.
+- SELECT * FROM citicollege.students
+WHERE address = 'Mississauga';
+
+Q2. Get the count of students who don't have a phone number.
+- SELECT count(*) FROM citicollege.students
+WHERE phone IS NULL
+
+Q3. Get Name of courses where fees is more than 500 and less than 999.
+- Select coursename FROM citicollege.courses
+Where  fee BETWEEN 500 AND 999
+
+Q4. Find out students whose phone number starts with 647 
+- SELECT * FROM citicollege.students
+WHERE phone like '647%';
+
+Q5. Find out students whose phone number contains 900
+- SELECT * FROM citicollege.students
+WHERE phone like '%900%'
+
+Q6. Get the name of students along with the course name and their respective fees.
+- select s.firstName, s.lastName, c.courseName, c.fee FROM citicollege.students s 
+join citicollege.courses c ON s.courseId = c.courseId;
+
+Q7. Get the name of all the students along with course name and their respective fees.
+- select s.firstName, s.lastName, c.courseName, c.fee FROM citicollege.students s 
+left join citicollege.courses c ON s.courseId = c.courseId;
+
+Q8. Get the name of all the courses along with student name and their respective fees. 
+- select s.firstName, s.lastName, c.courseName, c.fee FROM citicollege.students s 
+right join citicollege.courses c ON s.courseId = c.courseId;
+
+select s.firstName, s.lastName, c.courseName, c.fee FROM citicollege.courses c
+left join citicollege.students s ON s.courseId = c.courseId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

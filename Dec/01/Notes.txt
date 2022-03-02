@@ -1,0 +1,25 @@
+client side and server side
+
+Client side languages: which run in browsers (Edge/Chrome/Safari) Javascript, CSS, HTML
+Server side languages: which runs on the server and processes the information. Java/Python/C#/Nodejs
+
+Angular/React: client side frameworks which are based on JS.
+
+Steps:
+1. find the image
+document.getElementById("cirle")
+
+Statements:
+1. Declare a variable
+
+let x = 5.25;
+let name = 'EBDE';
+let rememberMe = false;
+let date = '02 Dec 2021';
+
+
+2. Block/ Scope
+{
+
+
+}

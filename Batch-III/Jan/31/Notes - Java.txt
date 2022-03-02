@@ -1,0 +1,98 @@
+Java is server side programming language.
+Javascript is both server and client programming language.
+
+Why the need to learn any server side programming language?
+- complex processing or business logic happens on the server.
+
+What is Class?
+- 
+
+Class example:
+Car: breaks, accelator/gas, body.
+
+function learnJs() {
+
+..
+..
+
+}
+
+public class Main() {
+
+..
+..
+
+}
+
+attributes & methods:
+int x = 5;
+
+int is the datatype(integer)
+x is the name of variable 
+5 is the value which x variable has
+
+
+int y = 10;
+
+public class Main () {
+   int x = 5;
+   int y = 10;
+   string name = "John Doe";
+}
+
+Method:
+
+
+
+
+public class Main () {
+   int x = 5;
+   int y = 10;
+   string name = "John Doe";
+
+public static printName() {
+
+ System.out.println("Hello World");
+
+}
+
+}
+
+Datatypes:
+String
+int
+boolean
+float
+char
+
+Arithmetic Operators:
++
+-
+*
+/
+%
+++
+--
+
+Strings:
+1. length
+2. indexof
+3. toUpperCase
+4. toLowerCase
+5. concat
+
+
+
+Q. create 2 strings (possibly name) and print 'they are equal' else print 'they are not equal'.
+- tom & john
+- tom & tom
+
+Q. Create a class called Student with attributes as StudentId, StudentName, StudentCourse,
+StartDate.
+- Create a method in student class which prints the StudentName, StudentCourse & Startdate.
+- Create a constructor to initialize the value to a default.
+
+
+
+
+

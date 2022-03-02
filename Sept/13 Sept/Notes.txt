@@ -1,0 +1,104 @@
+Operating Systems
+
+Why do you need an Operating System?
+- 
+1. to manage the individual hardware components.
+2. to perform low level operations and tasks.
+3. provides a base for all other softwares and drivers to run
+
+What does an Operating System do?
+1. Handles all inputs and output
+2. It manages all the programs and apps
+3. It provides an interface to the users
+
+Types of Operating Systems
+1. Windows
+2. Mac OS
+3. Linux
+4. chrome os
+
+C language
+OS, 
+memory, hdd, chipset, motherboard, processor
+
+Different components/functions of Operating System
+1. Input/Output Management: 
+It manages the input and output of the device and connects any external pieces of hardware.
+
+2. Memory Management: It's responsible for managing the allocation/ deallocation of memory to
+differnet applications/ hardware
+
+3. Resource Management:  It manages multiple process/ cores/ pools to run in parallel. 
+So the software can run faster and smoother.
+
+4. Security Management: It keeps the user profiles/ password management/ programs running under
+different users settings.
+
+5. Command Interpreter: Every OS has default interpreter which translates the command to actual 
+operations on the device.
+
+6. File Management: Operating system manages the location of files on disk and indexs them
+for better retrieval.
+
+ASsignment: Read why does Operating system need to index files?
+- 
+
+What are Kernel?
+- Kernel is a central component of an operating system that manages operations of computer and hardware.
+Kernel loads first into memory when an OS is loaded and remains into memory until operating system is 
+shut down. It is responsible for disk management, task management and memory management.
+
+Types of Kernels:
+
+1. Monolithic kernel
+- Its where all OS services operate in kernel space. It has dependencies between system components.
+It has huge line of code which is complex.
+- Unix, Linux
+Advantage: It has good performance
+Disadvantages: It has dependencies b/w system components and lines of codes in millions.
+
+2. Micro Kernel
+- It has minimalist approach. It has thread scheduuling and virtual memory. It is more stable with
+less kernel space.
+- Minix, l4, Mach
+Advantange: It is more stable
+Disadvantage: There are lots of system calls and context switches.
+
+3. Hybrid Kernel
+- It has combination of both Monolithic and Micro kernel. It has speed and design of monolithic and
+modularity and stability of microkernel.
+- Windows
+
+Q. What type of kernel does OS X(Mac Os) has?
+
+Time-division multiplexing and Space-division multiplexing.
+
+Resource Management: Dynamic allocation and de-allocation by an OS of processor cores, memory pages
+and various types of bandwidth to compuptations that compete for those resources..
+
+Different techniques of resource management
+Scheduling, policies, multitasking, virtual memory, paging, interrupt and polling.
+
+Both time-division and space-division are types of resource management techniques.
+
+What happens when something for example a process or any program fails?
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

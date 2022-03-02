@@ -1,0 +1,94 @@
+Excercise: Variables, Operators,
+
+client side and server side
+
+Client side languages: which run in browsers (Edge/Chrome/Safari) Javascript, CSS, HTML
+Server side languages: which runs on the server and processes the information. Java/Python/C#/Nodejs
+
+Angular/React: client side frameworks which are based on JS.
+
+Steps:
+1. find the image
+document.getElementById("cirle")
+
+Statements:
+1. Declare a variable
+
+let x = 5.25;
+let name = 'EBDE';
+let rememberMe = false;
+let date = '02 Dec 2021';
+
+
+2. Block/ Scope
+{
+
+
+}
+
+
+Operators:
+Arithmetic Operators
+1. + Add
+2. - Subtract
+3. * Multiplication
+4. / Division
+5. % Modulus
+6. ++ Increment
+7. -- Decrement
+
+
+Assignment OPerators
+
+Comparison Operators
+1. == compares the value if equal
+2. != not equal
+3. > greater than
+4. < less than
+5. >= greater than or equal to
+6. <= less than or equal to
+
+Logical Operators
+1. && logical And, if any value is false, answer is false
+2. || logical OR, if any value is true, answer is true
+
+
+Drivers Info:
+License Number:
+Name:
+Expiry: 
+
+Data Types
+1. Number // let length = 16;
+2. String // let name = 'John';
+3. Boolean // let x =10; let y = 10; (x == y) // true
+4. Object 
+
+
+String Methods
+ 	    //length
+            //name.length 
+
+            //slice
+            //slice is a method takes start index and end index (end not included)
+
+            //substr
+            //substr is a method takes start index and length 
+
+            //lastIndexOf
+            //return the index of the found string
+
+            //name2.lastIndexOf(' ') -> 7
+5. replace
+6. toUpperCase
+7. toLowerCase
+8. trim
+9. concat
+10. split
+
+Arrays:
+
+
+
+
+

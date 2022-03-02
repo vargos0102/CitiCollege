@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+    <body>
+        <script>
+            let students = [];
+
+            function learnJs() {
+                StudentName = document.getElementById("StudentName").value;
+                StudentId = document.getElementById("StudentId").value;
+                Studentcourse = document.getElementById("Studentcourse").value;
+                address = document.getElementById("address").value;
+                let inputData = {
+                    StudentName: StudentName,
+                    StudentId: StudentId,
+                    Studentcourse: Studentcourse,
+                    address: address
+                };
+
+                students.push(inputData);
+            }
+
+            function display() {
+                let txt = '';
+                for (let index = 0; index < students.length; index++) {
+                    const element = students[index];
+                    txt = txt + element.StudentId + ' ' + element.StudentName + ' ' + element.address;
+                    txt = txt + '<br>';
+                }
+                document.getElementById("p1").innerHTML = txt;
+            }
+        </script>
+</head>
+
+<body>
+    <p id="p1"> This is a new paragraph </p>
+    <div id="d1">This is div</div>
+    <label for="StudentName">StudentName</label>
+    <input type="text" value="" id="StudentName">
+    <br>
+    <label for="StudentId">StudentId</label>
+    <input type="text" value="" id="StudentId">
+    <br>
+    <label for="Studentcourse">Studentcourse</label>
+    <input type="text" value="" id="Studentcourse">
+    <br>
+    <label for="address">address</label>
+    <input type="text" value="" id="address">
+    <br>
+    <input type="button" value="Add Student" id="b1" onclick="learnJs()"></input>
+    <br>
+    <input type="button" value="Display Students" id="b2" onclick="display()"></input>
+
+</body>
+
+</html>

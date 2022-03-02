@@ -1,0 +1,4 @@
+Q. Create a list of student objects and loop them to print just the address of each student.
+//Class
+//ArrayList
+//for loop

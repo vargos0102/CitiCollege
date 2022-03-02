@@ -1,0 +1,125 @@
+Basic:
+Your browser (IE/Edge/Chrome/Safari) understand only 3 things.
+HTML/CSS/Javascript.
+
+
+Javascript
+
+What is Javscript?
+- Javascript allows you to make web pages more interactive.
+It's a programming language used for both client and server side programms.
+It's currently one of the most popular languages. Mostly its used for client side rendering of
+web pages.
+
+
+Why do we need Javascript?
+- Its needed to by Web browsers to create a dynamic and interactive expereince for the user.
+
+HTML DOM (Document Object Model)
+
+                          HTML
+Head					Body
+			h2		button 					p
+		(Text:'Intro Page')  (Text:'Check D&T', Attr: 'onclick')      (Attr: 'id')
+
+
+Difference between Java and Javascript?
+- completely unrelated languages.
+- same as C & C#
+
+document.getElementbyId('')
+
+Where the JavaScript is written?
+- within the <script> </script>
+
+Function: a set of statements that performs a task or perform any calculation.
+Syntax: function funcName() { .. statements.. }
+Call: funcName()
+
+Output:
+window.alert('') - to display or give a popup kind of a message on the browser.
+window.print() - this just prints the html which you can see on the page.
+
+--------------------------------------------------------------------------
+Syntax:
+Javascript Keywords: reserved keywords that means something to Javascript.
+example: var 
+JavaScript is case sensitive, example: firstName and FirstName.
+
+JavaScript Variables: Variables are placeholders for value.
+Example: var firstName = "John", var lastName ="Doe", var num1 = 76
+--------------------------------------------
+Javascript Operator: 
+Arthimetic
++, -, *, /, % (Modulus), ++ (Increment), -- (decrement), =, += (assignment), **(exponentiation)
+
+Coparision Operator:
+> (greater than), < (less than), == (equal to), != (not equal), >= (greater than or eqaul to),
+<= (less than or equal to)
+---------------------------------------------
+Data Types:
+String - letters and numbers in double quotes. Example: "John", "$76.5", "Hello! 123".
+number - numbers with or without decimals without quotes. Example: 76, 76.59
+boolean - true or false. 
+undefined - variable without a value/ value has not been defined.
+null - empty/ nothing.
+object - object contains one or more properties seperated by commas.
+----------------------------------------------
+Functions:
+A JS function is a block or series of statements meant to do a particular task.
+'return' is used to return the computed value from a function.
+Functions can have any number of parameters as an input.
+Example: function Add() { return 4+6; }
+Example: function Add(num1, num2) { return num1+num2; }
+-----------------------------------------------
+Events:
+Something has happened or occured. Gives JS opportunity to react to such events.
+onclick(): example- when a button gets clicked.
+onkeydown(): example- to block user from inputting numbers or special characters.
+onchange(): example- when you change something in the text only then it gets fired.
+onmouseover(): example- when you bring the mouse on html element it increases the font size.
+onmouseout(): example- when you move the mouse out of the html element the font size is reset.
+onload(): This event triggers when an object has been loaded. example- image start to load.
+------------------------------------------------
+String:
+A series of literals(numbers/alphabets/special characters)
+This is a list of products and service's
+
+String Methods:
+Inbuild methods available on strings. These provide solution to common day to day problems.
+
+indexOf(): returns the index (position) of the first occuerence of a specified text.
+lastIndexOf(): returns the index(position) of the last occurrence of a specified text.
+search(): returns the index(position) of the specified search text.
+
+slice(start, end): extracts a part of a string and returns the extracted part in a new string.
+substring(start, end): extracts a part of a string and returns the extracted part in a new string.
+substr(start, length):  extracts a part of a string and returns the extracted part in a new string. Second parameter is the length starting from sub string start.
+
+replace(): replaces a specified value with another value in a string.
+toUpperCase(): will convert string to upper case.
+toLowerCase(): will convert string to lower case.
+concat(): joins two or more strings together.
+
+
+Question 1: Create a function which would take a string of letters (a,b,d,e,f) and add missing letter 'c' in it.
+- 
+
+function myFunc(sample, missingChar, insertAfter) {
+        var temp = "";
+        temp =
+          sample.slice(0, sample.indexOf(insertAfter) + 2) +
+          missingChar +
+          sample.slice(sample.indexOf(insertAfter) + 2);
+
+        document.getElementById("p1").innerHTML = temp;
+      }
+
+Question 2:
+Create a function which takes a list of names(Tom,Jerry,Martin,Luther) and insert a specific name (Holland) after specified name counts (2).
+ 
+
+
+
+
+

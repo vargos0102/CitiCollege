@@ -1,0 +1,33 @@
+Completed: 
+1. HTML Attributes
+2. HTML Headings
+3. HTML Paragraphs
+4. HTML Comments
+
+Exclude:
+HTML Iframes
+HTML Computercode
+HTML Scripts
+HTML Tables
+
+To Do:
+HTML Styles
+HTML formatting
+HTML Quatations
+----------------Check point 1
+
+HTML comments
+HTML CSS
+HTML Links
+HTML Images
+---------------Check point 2
+HTML Lists
+HTML Classes
+HTML Id
+HTML Forms
+--------------Check point 3
+HTML form Attributes
+HTML form elements
+HTML Input types
+Html Input Attributes
+----------------Check point 4

@@ -1,0 +1,26 @@
+Header tags: Commonly used for headings
+<h1></h1>
+<h2></h2>
+.
+.
+<h6></h6>
+
+Paragraph tag: Use for any kind of description.
+<p> </p>
+
+Division tag: Use for dividing the HTML page.
+<div> </div>
+
+Image tag: Its used for dispalying images.
+Anchor tag (<a></a>): Its used as a link on the webpage to redirect user to some other website/ page 
+
+Excercise 1: create a html page.
+With a heading, and paragraph and image all under division tag.
+ext1:add a link tag
+ext2: make an image clickable. Meaning go to msn on click of image.
+
+HTML table: It arranges the data into rows and columns.
+
+Attirbutes: All html tags have attributes, which rovides additional info and it's in key value formats.
+
+Lists: When multiple items come together to form a list.

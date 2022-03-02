@@ -1,0 +1,66 @@
+Header tags: Commonly used for headings
+<h1></h1>
+<h2></h2>
+.
+.
+<h6></h6>
+
+Paragraph tag: Use for any kind of description.
+<p> </p>
+
+Division tag: Use for dividing the HTML page.
+<div> </div>
+
+Image tag: Its used for dispalying images.
+Anchor tag (<a></a>): Its used as a link on the webpage to redirect user to some other website/ page 
+
+Excercise 1: create a html page.
+With a heading, and paragraph and image all under division tag.
+ext1:add a link tag
+ext2: make an image clickable. Meaning go to msn on click of image.
+
+HTML table: It arranges the data into rows and columns.
+
+Attirbutes: All html tags have attributes, which rovides additional info and it's in key value formats.
+
+Lists: When multiple items come together to form a list.
+
+How to add styles to individual elements.
+
+HTML Classes: You write the styles once and reuse either on different elements.
+
+HTML id: This uniquely identifies the html element on the web page.
+
+Block and Inline: block takes the entore width by default. Ex: <div>, <p>
+Inline: doesn't takes the entire/full width. Ex: <img>, <a>
+ 
+HTML formatting elements:
+<b>, <strong>, <i>, <em>, <del>, <mark>,<ins>,<sub>,<sup>
+
+HTML comments: <!-- any text --> Ctrl + K + C
+
+CSS files extension is .css Cascading Style Sheets
+
+Bootstrap: It is a css library which contains predefined classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

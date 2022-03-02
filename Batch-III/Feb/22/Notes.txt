@@ -1,0 +1,5 @@
+Q. Create an ArrayList of names and add 4 different names to it
+& print all the names of arraylist using for loop.
+
+Q. Create a Calculator class, with methods Add and Multiply. 
+The methods will accept 2 numbers and return the result.

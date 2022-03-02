@@ -1,0 +1,2 @@
+using the flexbox:
+1. create a sample page with left, center and right column data.
